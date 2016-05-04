@@ -2,7 +2,7 @@ home:
   alias: '/home'
 
 pages:
-  theme: solid-state
+  theme: milligrav
   markdown_extra: false
   process:
     markdown: true
