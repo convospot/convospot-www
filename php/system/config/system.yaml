@@ -17,7 +17,7 @@ home:
   alias: '/home'                            # Default path for home, ie /
 
 pages:
-  theme: antimatter                         # Default theme (defaults to "antimatter" theme)
+  theme: hq                         # Default theme (defaults to "antimatter" theme)
   order:
     by: default                             # Order pages by "default", "alpha" or "date"
     dir: asc                                # Default ordering direction, "asc" or "desc"
@@ -59,7 +59,7 @@ pages:
 cache:
   enabled: true                             # Set to true to enable caching
   check:
-    method: file                            # Method to check for updates in pages: file|folder|none
+    method: none                            # Method to check for updates in pages: file|folder|none
   driver: auto                              # One of: auto|file|apc|xcache|memcache|wincache
   prefix: 'g'                               # Cache prefix string (prevents cache conflicts)
   lifetime: 604800                          # Lifetime of cached data in seconds (0 = infinite)
