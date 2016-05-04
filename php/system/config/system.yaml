@@ -17,7 +17,7 @@ home:
   alias: '/home'                            # Default path for home, ie /
 
 pages:
-  theme: hq                         # Default theme (defaults to "antimatter" theme)
+  theme: antimatter                         # Default theme (defaults to "antimatter" theme)
   order:
     by: default                             # Order pages by "default", "alpha" or "date"
     dir: asc                                # Default ordering direction, "asc" or "desc"

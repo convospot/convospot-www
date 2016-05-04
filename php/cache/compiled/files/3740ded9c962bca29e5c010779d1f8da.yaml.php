@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/homer/Projects/convospot-site/php/system/config/system.yaml',
-    'modified' => 1462380881,
+    'modified' => 1462382115,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
@@ -24,7 +24,7 @@ return [
             'alias' => '/home'
         ],
         'pages' => [
-            'theme' => 'hq',
+            'theme' => 'antimatter',
             'order' => [
                 'by' => 'default',
                 'dir' => 'asc'

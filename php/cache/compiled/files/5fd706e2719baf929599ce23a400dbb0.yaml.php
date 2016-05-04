@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/homer/Projects/convospot-site/php/user/config/system.yaml',
-    'modified' => 1461762456,
+    'modified' => 1462382153,
     'data' => [
         'home' => [
             'alias' => '/home'
         ],
         'pages' => [
-            'theme' => 'antimatter',
+            'theme' => 'solid-state',
             'markdown_extra' => false,
             'process' => [
                 'markdown' => true,
