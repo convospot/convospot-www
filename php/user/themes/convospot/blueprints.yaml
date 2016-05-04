@@ -1,0 +1,13 @@
+name: convospot
+version: 0.0.1
+description: "Convospot Grav theme"
+icon: newspaper-o
+author:
+  name: Homer Quan
+  email: homer@gmail.com
+  url: http://www.homerquan.com
+homepage: https://github.com/homerquan
+demo: 
+keywords: grav, convospot, fast, modern, theme, template
+bugs: https://github.com/homerquan/convospot-theme/issues
+license: MIT
