@@ -2,7 +2,7 @@ home:
   alias: '/home'
 
 pages:
-  theme: milligrav
+  theme: convospot
   markdown_extra: false
   process:
     markdown: true
