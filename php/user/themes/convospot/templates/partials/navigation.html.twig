@@ -11,6 +11,11 @@
                     <li class="navigation-item {{ current_page }}"><a class="navigation-link" href="{{ page.url }}">{{ page.menu }}</a></li>
                 {% endif %}
             {% endfor %}
+            <!--fixed external link-->
+                <li class="navigation-item {{ current_page }}"><a class="navigation-link" href="">Blog</a></li>
+                <li class="navigation-item {{ current_page }}"><a class="navigation-link" href="">Doc</a></li>
+                <li class="navigation-item {{ current_page }}"><a class="navigation-link" href="">API</a></li>
+            <!--end: fixed external link-->
         </ul> 
     </section>
 </nav>

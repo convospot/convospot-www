@@ -314,7 +314,7 @@ img {
 .github-corner {
     border: 0;
     color: #f4f5f6;
-    fill: #39f;
+    fill: #9b4dcA;
     height: 5.2rem;
     position: fixed;
     right: 0;
@@ -498,11 +498,11 @@ img {
 
 .popover-link:hover {
     color: #ffffff;
-    background: #39f;
+    background: #9b4dca;
 }
 
 .popover-link:hover, .popover-item:first-child .popover-link:hover:after {
-    border-bottom-color: #39f;
+    border-bottom-color: #9b4dca;
 }
 
 /* Share */
@@ -519,7 +519,7 @@ img {
 }
 
 .share-icon {
-    background-color: #39f;
+    background-color: #9b4dca;
     border-radius: .4rem;
     color: #ffffff;
     display: block;
@@ -545,7 +545,7 @@ img {
 
 pre.prettyprint {
     border: 0 !important;
-    border-left: .3rem solid #39f !important;
+    border-left: .3rem solid #9b4dca !important;
     color: #655d5d;
 }
 
@@ -571,7 +571,7 @@ pre.prettyprint .typ {
 
 /* a literal value */
 pre.prettyprint .lit {
-    color: #39f;
+    color: #9b4dca;
 }
 
 /* punctuation */
@@ -591,12 +591,12 @@ pre.prettyprint .clo {
 
 /* a markup tag name */
 pre.prettyprint .tag {
-    color: #39f;
+    color: #9b4dca;
 }
 
 /* a markup attribute name */
 pre.prettyprint .atn {
-    color: #39f;
+    color: #9b4dca;
 }
 
 /* a markup attribute value */
