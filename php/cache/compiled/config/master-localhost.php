@@ -1,61 +1,61 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1462395917,
-    'checksum' => 'abf74e707cfe30e7e6a30ac56be51dd2',
+    'timestamp' => 1462399920,
+    'checksum' => '8f604791480fbb6d9ca2f48d8f037a11',
     'files' => [
         'user/config' => [
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1462279507
+                'modified' => 1462396529
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1461762456
+                'modified' => 1462396529
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1462395888
+                'modified' => 1462396529
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1462249758
+                'modified' => 1462396529
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1462249758
+                'modified' => 1462396529
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1462249758
+                'modified' => 1462396529
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1462382115
+                'modified' => 1462396529
             ]
         ],
         'user/plugins' => [
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1462249811
-            ],
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1461762458
+                'modified' => 1462396529
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1461762458
+                'modified' => 1462396530
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1462249816
+                'modified' => 1462396530
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1462249830
+                'modified' => 1462396530
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/problems.yaml',
+                'modified' => 1462396530
             ]
         ]
     ],
@@ -80,10 +80,6 @@ return [
                         'bin' => '/usr/sbin/sendmail'
                     ]
                 ]
-            ],
-            'problems' => [
-                'enabled' => true,
-                'built_in_css' => true
             ],
             'error' => [
                 'enabled' => true,
@@ -181,6 +177,10 @@ return [
                         ]
                     ]
                 ]
+            ],
+            'problems' => [
+                'enabled' => true,
+                'built_in_css' => true
             ]
         ],
         'media' => [

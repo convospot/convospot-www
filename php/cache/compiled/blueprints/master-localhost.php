@@ -1,47 +1,47 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1462395917,
-    'checksum' => 'd0f7987a74522935b838b6675b8b618b',
+    'timestamp' => 1462399920,
+    'checksum' => '5c700339b9d3b8b923f31ce9239d1651',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1462249757
+                'modified' => 1462396529
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1462249757
+                'modified' => 1462396529
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1462249757
+                'modified' => 1462396529
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1462249757
+                'modified' => 1462396529
             ]
         ],
         'user/plugins' => [
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1462249811
-            ],
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1461762458
+                'modified' => 1462396529
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1461762458
+                'modified' => 1462396530
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1462249816
+                'modified' => 1462396530
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1462249830
+                'modified' => 1462396530
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/blueprints.yaml',
+                'modified' => 1462396530
             ]
         ]
     ],
@@ -193,38 +193,6 @@ return [
                 'label' => 'Path to sendmail',
                 'placeholder' => '/usr/sbin/sendmail',
                 'name' => 'plugins.email.mailer.sendmail.bin'
-            ],
-            'plugins.problems' => [
-                'type' => '_parent',
-                'name' => 'plugins.problems'
-            ],
-            'plugins.problems.enabled' => [
-                'type' => 'toggle',
-                'label' => 'Plugin status',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.problems.enabled'
-            ],
-            'plugins.problems.built_in_css' => [
-                'type' => 'toggle',
-                'label' => 'Use built in CSS',
-                'highlight' => 1,
-                'default' => 1,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.problems.built_in_css'
             ],
             'plugins.error' => [
                 'type' => '_parent',
@@ -762,6 +730,38 @@ return [
                     'type' => 'string'
                 ],
                 'name' => 'plugins.login.oauth.providers.Twitter.credentials.secret'
+            ],
+            'plugins.problems' => [
+                'type' => '_parent',
+                'name' => 'plugins.problems'
+            ],
+            'plugins.problems.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin status',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.problems.enabled'
+            ],
+            'plugins.problems.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'Use built in CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.problems.built_in_css'
             ],
             'site' => [
                 'type' => '_parent',
@@ -1944,10 +1944,6 @@ return [
                     'to' => 'plugins.email.to',
                     'to_name' => 'plugins.email.to_name'
                 ],
-                'problems' => [
-                    'enabled' => 'plugins.problems.enabled',
-                    'built_in_css' => 'plugins.problems.built_in_css'
-                ],
                 'error' => [
                     'enabled' => 'plugins.error.enabled',
                     'routes' => [
@@ -2026,6 +2022,10 @@ return [
                             ]
                         ]
                     ]
+                ],
+                'problems' => [
+                    'enabled' => 'plugins.problems.enabled',
+                    'built_in_css' => 'plugins.problems.built_in_css'
                 ]
             ],
             'site' => [
