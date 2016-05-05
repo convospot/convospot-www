@@ -58,7 +58,6 @@ class __TwigTemplate_ce4ff0a323e80400225c207b9bfc7838d2f9fddf89985103d88bc3ebcbb
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 14
         echo "            <!--fixed external link-->
-                <li class=\"navigation-item login\"><a class=\"navigation-link\" href=\"\">Sign in</a></li>
             <!--end: fixed external link-->
         </ul> 
     </section>
@@ -95,7 +94,6 @@ class __TwigTemplate_ce4ff0a323e80400225c207b9bfc7838d2f9fddf89985103d88bc3ebcbb
 /*                 {% endif %}*/
 /*             {% endfor %}*/
 /*             <!--fixed external link-->*/
-/*                 <li class="navigation-item login"><a class="navigation-link" href="">Sign in</a></li>*/
 /*             <!--end: fixed external link-->*/
 /*         </ul> */
 /*     </section>*/

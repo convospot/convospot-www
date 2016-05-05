@@ -56,7 +56,7 @@ img {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
     margin-bottom: 0;
-    max-width: 80.0rem;
+    max-width: 120.0rem;
 }
 
 .example .row, .example.row, .example form {
@@ -79,7 +79,6 @@ img {
 // –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header {
-    background-color: #f4f5f6;
     padding-top: 1rem;
 }
 
