@@ -8,7 +8,7 @@ process:
 <header class="header" id="home">
 	<section class="container">
 		<img class="img" src="/user/themes/convospot/images/logo.svg" alt="Milligram" title="Milligram">
-		<h1 class="title">Simple intelligent communication</h1>
+		<h1 class="title">Simple intelligent communication for education</h1>
 		<p class="description">Chatbot with knowledge and actions<br></p>
 		<!-- Begin MailChimp Signup Form -->
 		<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
