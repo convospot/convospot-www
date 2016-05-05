@@ -7,7 +7,7 @@ process:
 
 <header class="header" id="home">
 	<section class="container">
-		<img class="img" src="https://milligram.github.io/img/logo.svg" alt="Milligram" title="Milligram">
+		<img class="img" src="/user/themes/convospot/images/logo.svg" alt="Milligram" title="Milligram">
 		<h1 class="title">Simple intelligent communication</h1>
 		<p class="description">Chatbot with knowledge and actions<br><i><small>beta 1.0.1</small></i></p>
 		<a class="button" href="">Getting Started</a>
