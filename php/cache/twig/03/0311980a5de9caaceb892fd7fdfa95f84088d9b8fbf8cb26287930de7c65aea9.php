@@ -58,18 +58,7 @@ class __TwigTemplate_ce4ff0a323e80400225c207b9bfc7838d2f9fddf89985103d88bc3ebcbb
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 14
         echo "            <!--fixed external link-->
-                <li class=\"navigation-item ";
-        // line 15
-        echo (isset($context["current_page"]) ? $context["current_page"] : null);
-        echo "\"><a class=\"navigation-link\" href=\"\">Blog</a></li>
-                <li class=\"navigation-item ";
-        // line 16
-        echo (isset($context["current_page"]) ? $context["current_page"] : null);
-        echo "\"><a class=\"navigation-link\" href=\"\">Doc</a></li>
-                <li class=\"navigation-item ";
-        // line 17
-        echo (isset($context["current_page"]) ? $context["current_page"] : null);
-        echo "\"><a class=\"navigation-link\" href=\"\">API</a></li>
+                <li class=\"navigation-item login\"><a class=\"navigation-link\" href=\"\">Sign in</a></li>
             <!--end: fixed external link-->
         </ul> 
     </section>
@@ -89,7 +78,7 @@ class __TwigTemplate_ce4ff0a323e80400225c207b9bfc7838d2f9fddf89985103d88bc3ebcbb
 
     public function getDebugInfo()
     {
-        return array (  71 => 17,  67 => 16,  63 => 15,  60 => 14,  54 => 13,  44 => 11,  41 => 10,  38 => 9,  34 => 8,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  60 => 14,  54 => 13,  44 => 11,  41 => 10,  38 => 9,  34 => 8,  27 => 4,  23 => 3,  19 => 1,);
     }
 }
 /* <nav class="navigation">*/
@@ -106,9 +95,7 @@ class __TwigTemplate_ce4ff0a323e80400225c207b9bfc7838d2f9fddf89985103d88bc3ebcbb
 /*                 {% endif %}*/
 /*             {% endfor %}*/
 /*             <!--fixed external link-->*/
-/*                 <li class="navigation-item {{ current_page }}"><a class="navigation-link" href="">Blog</a></li>*/
-/*                 <li class="navigation-item {{ current_page }}"><a class="navigation-link" href="">Doc</a></li>*/
-/*                 <li class="navigation-item {{ current_page }}"><a class="navigation-link" href="">API</a></li>*/
+/*                 <li class="navigation-item login"><a class="navigation-link" href="">Sign in</a></li>*/
 /*             <!--end: fixed external link-->*/
 /*         </ul> */
 /*     </section>*/

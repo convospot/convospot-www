@@ -8,8 +8,8 @@ process:
 <header class="header" id="home">
 	<section class="container">
 		<img class="img" src="https://milligram.github.io/img/logo.svg" alt="Milligram" title="Milligram">
-		<h1 class="title">convospot</h1>
-		<p class="description">Smart engagement with AI <br><i><small>Currently v1.1.0</small></i></p>
+		<h1 class="title">Simple intelligent communication</h1>
+		<p class="description">Chatbot with knowledge and actions<br><i><small>beta 1.0.1</small></i></p>
 		<a class="button" href="">Getting Started</a>
 	</section>
 	<!-- Begin MailChimp Signup Form -->
