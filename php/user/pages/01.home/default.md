@@ -29,6 +29,11 @@ process:
 		</div>
 		<!--End mc_embed_signup-->
 	</section>
+	<img src="http://www.convospot.io/user/themes/milligrav/images/clickhere.png" style="
+    position: fixed;
+    bottom: 0;
+    right: 60px;
+"></img>
 	<script src="http://widget-convospot-io.herokuapp.com/convospot.js" aid="
 100000" token="GJzol" async></script>
 </header>
