@@ -16,53 +16,34 @@ class __TwigTemplate_ce4ff0a323e80400225c207b9bfc7838d2f9fddf89985103d88bc3ebcbb
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<nav class=\"navigation\">
-    <section class=\"container\">
-        <a class=\"navigation-title\" href=\"";
+        echo "<nav id=\"menu\">
+    <div class=\"inner\">
+        <h2>";
         // line 3
-        echo (isset($context["base_url_absolute"]) ? $context["base_url_absolute"] : null);
-        echo "\">
-            <img class=\"img\" src=\"";
-        // line 4
-        echo (isset($context["theme_url"]) ? $context["theme_url"] : null);
-        echo "/images/logo.svg\" height=\"30\" alt=\"Milligram\" title=\"Milligram\">
-            <h1 class=\"title\">convospot</h1>
-        </a>
-        <ul class=\"navigation-list float-right\">
+        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "header", array()), "menu_name", array());
+        echo "</h2>
+        <ul class=\"links\">
             ";
-        // line 8
+        // line 5
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["pages"]) ? $context["pages"] : null), "children", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["page"]) {
-            // line 9
-            echo "                ";
-            if ($this->getAttribute($context["page"], "visible", array())) {
-                // line 10
-                echo "                    ";
-                $context["current_page"] = ((($this->getAttribute($context["page"], "active", array()) || $this->getAttribute($context["page"], "activeChild", array()))) ? ("active") : (""));
-                // line 11
-                echo "                    <li class=\"navigation-item ";
-                echo (isset($context["current_page"]) ? $context["current_page"] : null);
-                echo "\"><a class=\"navigation-link\" href=\"";
-                echo $this->getAttribute($context["page"], "url", array());
-                echo "\">";
-                echo $this->getAttribute($context["page"], "menu", array());
-                echo "</a></li>
-                ";
-            }
-            // line 13
-            echo "            ";
+            // line 6
+            echo "            <li><a href=\"";
+            echo $this->getAttribute($context["page"], "url", array());
+            echo "\">";
+            echo $this->getAttribute($context["page"], "menu", array());
+            echo "</a></li>
+            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['page'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 14
-        echo "            <!--fixed external link-->
-            <!--end: fixed external link-->
-        </ul> 
-    </section>
-</nav>
-";
+        // line 8
+        echo "        </ul>
+        <a href=\"#\" class=\"close\">Close</a>
+    </div>
+</nav>";
     }
 
     public function getTemplateName()
@@ -77,25 +58,17 @@ class __TwigTemplate_ce4ff0a323e80400225c207b9bfc7838d2f9fddf89985103d88bc3ebcbb
 
     public function getDebugInfo()
     {
-        return array (  60 => 14,  54 => 13,  44 => 11,  41 => 10,  38 => 9,  34 => 8,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  43 => 8,  32 => 6,  28 => 5,  23 => 3,  19 => 1,);
     }
 }
-/* <nav class="navigation">*/
-/*     <section class="container">*/
-/*         <a class="navigation-title" href="{{ base_url_absolute }}">*/
-/*             <img class="img" src="{{ theme_url }}/images/logo.svg" height="30" alt="Milligram" title="Milligram">*/
-/*             <h1 class="title">convospot</h1>*/
-/*         </a>*/
-/*         <ul class="navigation-list float-right">*/
+/* <nav id="menu">*/
+/*     <div class="inner">*/
+/*         <h2>{{ site.header.menu_name }}</h2>*/
+/*         <ul class="links">*/
 /*             {% for page in pages.children %}*/
-/*                 {% if page.visible %}*/
-/*                     {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}*/
-/*                     <li class="navigation-item {{ current_page }}"><a class="navigation-link" href="{{ page.url }}">{{ page.menu }}</a></li>*/
-/*                 {% endif %}*/
+/*             <li><a href="{{ page.url }}">{{ page.menu }}</a></li>*/
 /*             {% endfor %}*/
-/*             <!--fixed external link-->*/
-/*             <!--end: fixed external link-->*/
-/*         </ul> */
-/*     </section>*/
+/*         </ul>*/
+/*         <a href="#" class="close">Close</a>*/
+/*     </div>*/
 /* </nav>*/
-/* */

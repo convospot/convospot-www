@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1462399920,
-    'checksum' => '8f604791480fbb6d9ca2f48d8f037a11',
+    'timestamp' => 1465705602,
+    'checksum' => '7886b713b8115f288ed4fda0caed6636',
     'files' => [
         'user/config' => [
             'security' => [
@@ -11,11 +11,11 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1462396529
+                'modified' => 1465705592
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1462396529
+                'modified' => 1465699945
             ]
         ],
         'system/config' => [
@@ -421,17 +421,17 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'convospot.io - simple intelligent communication',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Homer Quan',
+                'email' => 'web@convospot.io'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Convospot provides chatbot with knowledge and actions'
             ],
             'summary' => [
                 'enabled' => true,
@@ -449,6 +449,9 @@ return [
             ],
             'blog' => [
                 'route' => '/blog'
+            ],
+            'header' => [
+                'menu_name' => 'MENU'
             ]
         ],
         'streams' => [

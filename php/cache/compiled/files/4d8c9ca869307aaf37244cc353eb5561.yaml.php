@@ -2,15 +2,18 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/homer/Projects/convospot-site/php/user/config/site.yaml',
-    'modified' => 1462396529,
+    'modified' => 1465705592,
     'data' => [
-        'title' => 'Grav',
+        'title' => 'convospot.io - simple intelligent communication',
+        'header' => [
+            'menu_name' => 'MENU'
+        ],
         'author' => [
-            'name' => 'Joe Bloggs',
-            'email' => 'joe@test.com'
+            'name' => 'Homer Quan',
+            'email' => 'web@convospot.io'
         ],
         'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+            'description' => 'Convospot provides chatbot with knowledge and actions'
         ]
     ]
 ];

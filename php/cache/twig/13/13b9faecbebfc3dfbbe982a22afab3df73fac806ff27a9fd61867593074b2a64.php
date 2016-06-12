@@ -28,9 +28,34 @@ class __TwigTemplate_b8deeb4a09696d499c8f3d397d37922b6937b766b4c2c69da83e0090f46
     public function block_content($context, array $blocks = array())
     {
         // line 4
-        echo "    ";
+        echo "<section id=\"wrapper\">
+    <header>
+        <div class=\"inner\">
+            <h2>";
+        // line 7
+        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "title", array());
+        echo "</h2>
+            ";
+        // line 8
+        echo $this->env->getExtension('GravTwigExtension')->markdownFilter($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "subtitle", array()));
+        echo "
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div class=\"wrapper\">
+        <div class=\"inner\">
+            ";
+        // line 15
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
+            ";
+        // line 16
+        $this->loadTemplate("partials/features.html.twig", "default.html.twig", 16)->display(array_merge($context, array("features" => $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "features", array()))));
+        // line 17
+        echo "        </div>
+    </div>
+</section>
 ";
     }
 
@@ -46,11 +71,26 @@ class __TwigTemplate_b8deeb4a09696d499c8f3d397d37922b6937b766b4c2c69da83e0090f46
 
     public function getDebugInfo()
     {
-        return array (  31 => 4,  28 => 3,  11 => 1,);
+        return array (  56 => 17,  54 => 16,  50 => 15,  40 => 8,  36 => 7,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
 /* */
 /* {% block content %}*/
-/*     {{ page.content }}*/
+/* <section id="wrapper">*/
+/*     <header>*/
+/*         <div class="inner">*/
+/*             <h2>{{ page.header.title }}</h2>*/
+/*             {{ page.header.subtitle|markdown }}*/
+/*         </div>*/
+/*     </header>*/
+/* */
+/*     <!-- Content -->*/
+/*     <div class="wrapper">*/
+/*         <div class="inner">*/
+/*             {{ page.content }}*/
+/*             {% include 'partials/features.html.twig' with { 'features': page.header.features } %}*/
+/*         </div>*/
+/*     </div>*/
+/* </section>*/
 /* {% endblock %}*/

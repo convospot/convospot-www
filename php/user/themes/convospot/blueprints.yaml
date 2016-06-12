@@ -1,13 +1,16 @@
 name: convospot
 version: 0.0.1
-description: "Convospot Grav theme"
-icon: newspaper-o
+description: "basked on Solid State from Html5Up, ported to Grav."
+icon: desktop
 author:
-  name: Homer Quan
-  email: homer@gmail.com
-  url: http://www.homerquan.com
-homepage: https://github.com/homerquan
-demo: 
-keywords: grav, convospot, fast, modern, theme, template
-bugs: https://github.com/homerquan/convospot-theme/issues
+  name: Giansimon Diblas
+  email: info@diblas.net
+  url: http://diblas.net
+homepage: https://github.com/giansi/grav-theme-solid-state
+demo: https://github.com/giansi/grav-theme-solid-state
+keywords: "theme, responsive, html5, css3, jquery"
+bugs: https://github.com/giansi/grav-theme-solid-state/issues
 license: MIT
+
+form:
+  validation: loose

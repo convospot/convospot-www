@@ -1,4 +1,6 @@
 title: convospot.io - simple intelligent communication
+header:
+  menu_name: 'MENU'
 author:
   name: Homer Quan
   email: 'web@convospot.io'
