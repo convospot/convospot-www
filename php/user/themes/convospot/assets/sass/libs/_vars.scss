@@ -30,13 +30,13 @@
 
 // Font.
 	$font: (
-		family:					('Harmonia Sans W01', Helvetica, sans-serif),
+		family:					('Roboto', sans-serif),
 		family-fixed:			('Courier New', monospace),
-		family-heading:			('Harmonia Sans W01', Helvetica, sans-serif),
+		family-heading:			('Dosis', sans-serif),
 		weight:					300,
 		weight-bold:			600,
-		weight-heading:			600,
-		weight-heading-bold:	700,
+		weight-heading:			300,
+		weight-heading-bold:	600,
 		kern-heading:			0.1em
 	);
 
@@ -44,9 +44,9 @@
 	$palette: (
 		bg:						#ffffff,
 		fg:						#2c2d30,
-		fg-bold:				#9c27b0,
+		fg-bold:				#9b4dca,
 		fg-light:			    #e0e0e0,
-		border:					#e0e0e0,
+		border:					#d0d4d9,
 		border-bg:				rgba(255,255,255,0.025),
 		border2:				rgba(255,255,255,0.25),
 		border2-bg:				rgba(255,255,255,0.075),

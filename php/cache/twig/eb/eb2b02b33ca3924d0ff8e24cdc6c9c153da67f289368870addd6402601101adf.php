@@ -29,10 +29,10 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
         echo (isset($context["content"]) ? $context["content"] : null);
         echo "
         <div class=\"quick-signup\" style=\"width:400px;margin: 30px 0px;\">
-\t\t\t<form action=\"//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate=\"\">
-\t\t\t\t\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"email\" id=\"mce-EMAIL\" placeholder=\"email address\" required=\"\" style=\"display: inline-block;width: 254px;height: 50px;\">
+\t\t\t<form class=\"group\" action=\"//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate=\"\">
+\t\t\t\t\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"email left\" id=\"mce-EMAIL\" placeholder=\"email address\" required=\"\" style=\"height: 50px;\">
 \t\t\t\t\t<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-\t\t\t\t\t<input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\" style=\"display: inline-block; width: 140px;;float:right\"> </form>
+\t\t\t\t\t<input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button right\"> </form>
 \t    </div>
     </div>
     <img src=\"/user/pages/01.home/clickhere.png\" style=\"z-index: 99; position: fixed; bottom: 0; right: 60px; \"></img> 
@@ -65,10 +65,10 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
 /*     <div class="inner">*/
 /*         {{ content }}*/
 /*         <div class="quick-signup" style="width:400px;margin: 30px 0px;">*/
-/* 			<form action="//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">*/
-/* 					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="" style="display: inline-block;width: 254px;height: 50px;">*/
+/* 			<form class="group" action="//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">*/
+/* 					<input type="email" value="" name="EMAIL" class="email left" id="mce-EMAIL" placeholder="email address" required="" style="height: 50px;">*/
 /* 					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->*/
-/* 					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: inline-block; width: 140px;;float:right"> </form>*/
+/* 					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button right"> </form>*/
 /* 	    </div>*/
 /*     </div>*/
 /*     <img src="/user/pages/01.home/clickhere.png" style="z-index: 99; position: fixed; bottom: 0; right: 60px; "></img> */
