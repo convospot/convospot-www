@@ -2278,16 +2278,18 @@ body.is-menu-visible #menu {
 #banner {
   padding: 6em 0 0.75em 0 ;
   text-align: center; }
-  #banner .slash img.widget-demo {
-    position: absolute;
-    left: 141px;
-    top: 32px;
-    height: 405px; }
-  #banner .slash img.device {
-    position: absolute;
-    left: 0; }
+  #banner .slash {
+    margin-top: 40px; }
+    #banner .slash img.widget-demo {
+      position: absolute;
+      left: 141px;
+      top: 32px;
+      height: 405px; }
+    #banner .slash img.device {
+      position: absolute;
+      left: 0; }
   #banner .inner {
-    margin: 6em auto 8em 400px;
+    margin: 8em auto 8em 400px;
     text-align: left;
     width: 55em; }
     #banner .inner p,
