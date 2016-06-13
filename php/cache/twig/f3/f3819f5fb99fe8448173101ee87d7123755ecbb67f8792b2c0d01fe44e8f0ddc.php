@@ -21,11 +21,13 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
             echo " class=\"alt\"";
         }
         echo ">
-    <h1><a href=\"";
+    <h1 class=\"logo\"><a href=\"";
         // line 2
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "find", array(0 => "/"), "method"), "url", array());
-        echo "\">";
+        echo "\"><img src=\"";
         echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "header", array()), "logo", array());
+        echo "\"></img>";
+        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "header", array()), "title", array());
         echo "</a></h1>
     <nav>
         <a href=\"#menu\"><i class=\"zmdi zmdi-menu\"></i><span class=\"sr-only\">";
@@ -48,11 +50,11 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
 
     public function getDebugInfo()
     {
-        return array (  33 => 4,  26 => 2,  19 => 1,);
+        return array (  35 => 4,  26 => 2,  19 => 1,);
     }
 }
 /* <header id="header"{% if page.home %} class="alt"{% endif %}>*/
-/*     <h1><a href="{{ page.find("/").url }}">{{ site.header.logo }}</a></h1>*/
+/*     <h1 class="logo"><a href="{{ page.find("/").url }}"><img src="{{ site.header.logo }}"></img>{{ site.header.title }}</a></h1>*/
 /*     <nav>*/
 /*         <a href="#menu"><i class="zmdi zmdi-menu"></i><span class="sr-only">{{ site.header.menu_name }}</span></a>*/
 /*     </nav>*/

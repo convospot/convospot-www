@@ -59,8 +59,9 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
         echo "</a></li>
         </ul>
         <ul class=\"copyright\">
+            <li> Robot iconset is from <a href=\"http://www.freepik.com/free-vector/collection-of-cute-colorful-robots_845408.htm\">Designed by Freepik</a> </li>
             <li>";
-        // line 17
+        // line 18
         echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "copyright", array());
         echo "</li>
             <li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>
@@ -81,7 +82,7 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
 
     public function getDebugInfo()
     {
-        return array (  64 => 17,  58 => 14,  54 => 13,  50 => 12,  46 => 11,  42 => 10,  37 => 8,  31 => 5,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  65 => 18,  58 => 14,  54 => 13,  50 => 12,  46 => 11,  42 => 10,  37 => 8,  31 => 5,  27 => 4,  23 => 3,  19 => 1,);
     }
 }
 /* <section id="footer">*/
@@ -100,6 +101,7 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
 /*             <li class="fa-instagram"><a href="#">{{ site.footer.instagram }}</a></li>*/
 /*         </ul>*/
 /*         <ul class="copyright">*/
+/*             <li> Robot iconset is from <a href="http://www.freepik.com/free-vector/collection-of-cute-colorful-robots_845408.htm">Designed by Freepik</a> </li>*/
 /*             <li>{{ site.footer.copyright }}</li>*/
 /*             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>*/
 /*         </ul>*/

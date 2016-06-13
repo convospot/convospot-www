@@ -3,24 +3,24 @@ sections:
     one:
         type: section1
         style: style1
-        image: pic01.jpg
-        title: "Magna arcu feugiat" 
+        image: robot1.png
+        title: "Engage with customers" 
         body: "Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus."
         button_url: #
         button_caption: Learn more
     two:
         type: section1
         style: style2
-        image: pic02.jpg
-        title: "Tempus adipiscing" 
+        image: robot2.png
+        title: "Leverage your own knowledge" 
         body: "Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus."
         button_url: #
         button_caption: Learn more
     three:
         type: section1
         style: style3
-        image: pic03.jpg
-        title: "Nullam dignissim" 
+        image: robot3.png
+        title: "Analysis plus action" 
         body: "Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus."
         button_url: #
         button_caption: Learn more

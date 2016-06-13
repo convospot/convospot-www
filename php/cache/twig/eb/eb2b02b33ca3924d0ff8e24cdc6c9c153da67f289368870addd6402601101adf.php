@@ -17,17 +17,26 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
     {
         // line 1
         echo "<section id=\"banner\">
+    <div class=\"slash\">
+    \t<div class=\"relative-helper\">
+\t\t<img class=\"device\" src=\"/user/pages/01.home/slash.png\"></img>
+\t\t<img class=\"widget-demo\" src=\"/user/pages/01.home/demo.gif\"></img>
+\t\t</div>
+    </div>
     <div class=\"inner\">
-        <div class=\"logo\"><span class=\"icon ";
-        // line 3
-        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "icon", array());
-        echo "\"></span></div>
         ";
-        // line 4
+        // line 9
         echo (isset($context["content"]) ? $context["content"] : null);
         echo "
+        <div class=\"quick-signup\" style=\"width:400px;margin: 30px 0px;\">
+\t\t\t<form action=\"//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate=\"\">
+\t\t\t\t\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"email\" id=\"mce-EMAIL\" placeholder=\"email address\" required=\"\" style=\"display: inline-block;width: 254px;height: 50px;\">
+\t\t\t\t\t<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+\t\t\t\t\t<input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\" style=\"display: inline-block; width: 140px;;float:right\"> </form>
+\t    </div>
     </div>
-</section>
+    <img src=\"/user/pages/01.home/clickhere.png\" style=\"z-index: 99; position: fixed; bottom: 0; right: 60px; \"></img> 
+ </section>
 ";
     }
 
@@ -43,13 +52,25 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
 
     public function getDebugInfo()
     {
-        return array (  27 => 4,  23 => 3,  19 => 1,);
+        return array (  29 => 9,  19 => 1,);
     }
 }
 /* <section id="banner">*/
-/*     <div class="inner">*/
-/*         <div class="logo"><span class="icon {{ page.header.icon }}"></span></div>*/
-/*         {{ content }}*/
+/*     <div class="slash">*/
+/*     	<div class="relative-helper">*/
+/* 		<img class="device" src="/user/pages/01.home/slash.png"></img>*/
+/* 		<img class="widget-demo" src="/user/pages/01.home/demo.gif"></img>*/
+/* 		</div>*/
 /*     </div>*/
-/* </section>*/
+/*     <div class="inner">*/
+/*         {{ content }}*/
+/*         <div class="quick-signup" style="width:400px;margin: 30px 0px;">*/
+/* 			<form action="//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">*/
+/* 					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="" style="display: inline-block;width: 254px;height: 50px;">*/
+/* 					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->*/
+/* 					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="display: inline-block; width: 140px;;float:right"> </form>*/
+/* 	    </div>*/
+/*     </div>*/
+/*     <img src="/user/pages/01.home/clickhere.png" style="z-index: 99; position: fixed; bottom: 0; right: 60px; "></img> */
+/*  </section>*/
 /* */

@@ -1,5 +1,7 @@
 title: convospot.io - simple intelligent communication
 header:
+  logo: 'user/themes/convospot/assets/imgs/logo.svg'
+  title: convospot
   menu_name: 'MENU'
 author:
   name: Homer Quan

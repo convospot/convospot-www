@@ -47,6 +47,7 @@
 		}
 
 		h2 {
+		    color: _palette(control);
 			border-bottom: solid 2px _palette(border);
 			padding-bottom: 1em;
 		}
@@ -82,7 +83,7 @@
 					border: 0;
 					display: block;
 					font-family: _font(family-heading);
-					font-size: 0.8em;
+					font-size: 1em;
 					font-weight: _font(weight-heading);
 					letter-spacing: _font(kern-heading);
 					line-height: 1.85em;
