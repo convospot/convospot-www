@@ -35,8 +35,9 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
 \t\t\t\t\t<input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button right\"> </form>
 \t    </div>
     </div>
-    <img src=\"/user/pages/01.home/clickhere.png\" style=\"z-index: 99; position: fixed; bottom: 0; right: 60px; \"></img> 
- </section>
+    <img src=\"/user/pages/01.home/clickhere.png\" style=\"z-index: 99; position: fixed; bottom: 58px; right: 30px;\">
+    </img> 
+</section>
 ";
     }
 
@@ -71,6 +72,7 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
 /* 					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button right"> </form>*/
 /* 	    </div>*/
 /*     </div>*/
-/*     <img src="/user/pages/01.home/clickhere.png" style="z-index: 99; position: fixed; bottom: 0; right: 60px; "></img> */
-/*  </section>*/
+/*     <img src="/user/pages/01.home/clickhere.png" style="z-index: 99; position: fixed; bottom: 58px; right: 30px;">*/
+/*     </img> */
+/* </section>*/
 /* */

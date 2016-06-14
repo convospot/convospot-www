@@ -29,6 +29,17 @@
 				width: calc(50% - #{_size(section-spacing, large) * 0.5});
 			}
 
+			.social {
+			   margin: 0;
+			   li {
+			   	  display: inline-block;
+			   	  a {
+			   	    border: none;
+			   	    color: _palette(fg-light);
+			   	  }
+			   }
+			}
+
 			.copyright {
 				border-top: solid 2px _palette(border);
 				list-style: none;

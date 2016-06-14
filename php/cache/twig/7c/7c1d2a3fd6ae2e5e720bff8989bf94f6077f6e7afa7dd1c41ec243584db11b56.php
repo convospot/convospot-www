@@ -26,10 +26,10 @@ class __TwigTemplate_13d000681333cb34e1ac068f65e3fd3fc38e97847690b61d6ffb4b7212b
             foreach ($context['_seq'] as $context["_key"] => $context["feature"]) {
                 // line 4
                 echo "        <article>
-            <a href=\"#\" class=\"image\">";
+            <a href=\"#\" class=\"image\"> <span class=\"image-cover\"> ";
                 // line 5
                 echo $this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "media", array()), "images", array()), $this->getAttribute($context["feature"], "image", array()), array(), "array");
-                echo "</a>
+                echo " </span> </a>
             <h3>";
                 // line 6
                 echo $this->getAttribute($context["feature"], "title", array());
@@ -41,7 +41,7 @@ class __TwigTemplate_13d000681333cb34e1ac068f65e3fd3fc38e97847690b61d6ffb4b7212b
             <a href=\"";
                 // line 8
                 echo $this->getAttribute($context["feature"], "button_url", array());
-                echo "\" class=\"special\">";
+                echo "\" class=\"special sr-only\">";
                 echo $this->getAttribute($context["feature"], "button_caption", array());
                 echo "</a>
         </article>
@@ -79,10 +79,10 @@ class __TwigTemplate_13d000681333cb34e1ac068f65e3fd3fc38e97847690b61d6ffb4b7212b
 /* <section class="features">*/
 /*     {% for feature in features %}*/
 /*         <article>*/
-/*             <a href="#" class="image">{{ page.media.images[feature.image] }}</a>*/
+/*             <a href="#" class="image"> <span class="image-cover"> {{ page.media.images[feature.image] }} </span> </a>*/
 /*             <h3>{{ feature.title }}</h3>*/
 /*             {{ feature.body|markdown }}*/
-/*             <a href="{{ feature.button_url }}" class="special">{{ feature.button_caption }}</a>*/
+/*             <a href="{{ feature.button_url }}" class="special sr-only">{{ feature.button_caption }}</a>*/
 /*         </article>*/
 /*     {% endfor %}            */
 /* </section>*/

@@ -127,6 +127,8 @@
 		&.alt {
 		    img {
 		    	float: right;
+		    	margin-right: 10px;
+                margin-top: 10px;
 		    }
 			&:before {
 				@include vendor('transform', 'scaleX(-1)');

@@ -18,55 +18,49 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
         // line 1
         echo "<section id=\"footer\">
     <div class=\"inner\">
-        <h2>";
-        // line 3
-        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "title", array());
-        echo "</h2>
-        ";
-        // line 4
-        echo $this->env->getExtension('GravTwigExtension')->markdownFilter($this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "content", array()));
-        echo "   
-        ";
-        // line 5
-        echo call_user_func_array($this->env->getFunction('simple_form')->getCallable(), array($this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "simple_form", array())));
-        echo "
-        <ul class=\"contact\">
-            <li class=\"fa-home\">
-                ";
-        // line 8
-        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "company", array());
-        echo "   
-            </li>
-            <li class=\"fa-phone\">";
-        // line 10
-        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "phone", array());
-        echo " </li>
-            <li class=\"fa-envelope\"><a href=\"#\">";
-        // line 11
-        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "envelope", array());
-        echo " </a></li>
-            <li class=\"fa-twitter\"><a href=\"#\">";
-        // line 12
-        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "twitter", array());
-        echo " </a></li>
-            <li class=\"fa-facebook\"><a href=\"#\">";
-        // line 13
-        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "facebook", array());
-        echo " </a></li>
-            <li class=\"fa-instagram\"><a href=\"#\">";
-        // line 14
-        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "instagram", array());
-        echo "</a></li>
-        </ul>
-        <ul class=\"copyright\">
-            <li> Robot iconset is from <a href=\"http://www.freepik.com/free-vector/collection-of-cute-colorful-robots_845408.htm\">Designed by Freepik</a> </li>
-            <li>";
-        // line 18
-        echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "footer", array()), "copyright", array());
-        echo "</li>
-            <li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>
-        </ul>
-    </div>
+                            <h2 class=\"major\">Get in touch</h2>
+                            <form action=\"//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>
+                                <div class=\"field\">
+                                    <label for=\"mce-EMAIL\">Email</label>
+                                    <input type=\"email\" value=\"\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\">
+                                </div>
+                                <div class=\"field\">
+                                    <label for=\"mce-FNAME\">First Name</label>
+                                    <input type=\"text\" value=\"\" name=\"FNAME\" class=\"\" id=\"mce-FNAME\">
+                                </div>
+                                <div class=\"field\">
+                                    <label for=\"mce-LNAME\">Last Name</label>
+                                    <input type=\"text\" value=\"\" name=\"LNAME\" class=\"\" id=\"mce-LNAME\">
+                                </div>
+                                    <div id=\"mce-responses\" class=\"clear\">
+        <div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>
+        <div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_5d09472ed22fd10a4e82ebc98_46c363364d\" tabindex=\"-1\" value=\"\"></div>
+                                <ul class=\"actions\">
+                                    <li><input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"></li>
+                                </ul>
+                            </form>
+                            <ul class=\"contact\">
+                                <li class=\"fa-home\">
+                                    34 Carriage Lane<br>
+                                    Hanover NH 03755
+                                </li>
+                                <li class=\"fa-phone\">(603) 676-7847</li>
+                            </ul>
+                            <ul class=\"copyright\">
+                                <li>© Reflen Inc. All rights reserved 2016.</li>
+                                <li>
+                                <ul class=\"social\">    
+                                <li><a href=\"info@convospot.io\"><i class=\"fa fa-envelope\"></i></a></li>
+                                <li><a href=\"https://www.facebook.com/reflenapp/?fref=ts\"><i class=\"fa fa-facebook\"></i></a></li>
+                                <li><a href=\"https://twitter.com/reflenapp\"><i class=\"fa fa-twitter\"></i></a></li>  
+                                </ul>
+                                </li>
+                                <li>Design based on <a href=\"https://html5up.net/solid-state\">solid state</a></li>
+                            </ul>
+
+                        </div>
 </section>";
     }
 
@@ -75,35 +69,54 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
         return "partials/footer.html.twig";
     }
 
-    public function isTraitable()
-    {
-        return false;
-    }
-
     public function getDebugInfo()
     {
-        return array (  65 => 18,  58 => 14,  54 => 13,  50 => 12,  46 => 11,  42 => 10,  37 => 8,  31 => 5,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  19 => 1,);
     }
 }
 /* <section id="footer">*/
 /*     <div class="inner">*/
-/*         <h2>{{ site.footer.title }}</h2>*/
-/*         {{ site.footer.content|markdown }}   */
-/*         {{ simple_form(site.footer.simple_form) }}*/
-/*         <ul class="contact">*/
-/*             <li class="fa-home">*/
-/*                 {{ site.footer.company }}   */
-/*             </li>*/
-/*             <li class="fa-phone">{{ site.footer.phone }} </li>*/
-/*             <li class="fa-envelope"><a href="#">{{ site.footer.envelope }} </a></li>*/
-/*             <li class="fa-twitter"><a href="#">{{ site.footer.twitter }} </a></li>*/
-/*             <li class="fa-facebook"><a href="#">{{ site.footer.facebook }} </a></li>*/
-/*             <li class="fa-instagram"><a href="#">{{ site.footer.instagram }}</a></li>*/
-/*         </ul>*/
-/*         <ul class="copyright">*/
-/*             <li> Robot iconset is from <a href="http://www.freepik.com/free-vector/collection-of-cute-colorful-robots_845408.htm">Designed by Freepik</a> </li>*/
-/*             <li>{{ site.footer.copyright }}</li>*/
-/*             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>*/
-/*         </ul>*/
-/*     </div>*/
+/*                             <h2 class="major">Get in touch</h2>*/
+/*                             <form action="//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>*/
+/*                                 <div class="field">*/
+/*                                     <label for="mce-EMAIL">Email</label>*/
+/*                                     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">*/
+/*                                 </div>*/
+/*                                 <div class="field">*/
+/*                                     <label for="mce-FNAME">First Name</label>*/
+/*                                     <input type="text" value="" name="FNAME" class="" id="mce-FNAME">*/
+/*                                 </div>*/
+/*                                 <div class="field">*/
+/*                                     <label for="mce-LNAME">Last Name</label>*/
+/*                                     <input type="text" value="" name="LNAME" class="" id="mce-LNAME">*/
+/*                                 </div>*/
+/*                                     <div id="mce-responses" class="clear">*/
+/*         <div class="response" id="mce-error-response" style="display:none"></div>*/
+/*         <div class="response" id="mce-success-response" style="display:none"></div>*/
+/*     </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->*/
+/*     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5d09472ed22fd10a4e82ebc98_46c363364d" tabindex="-1" value=""></div>*/
+/*                                 <ul class="actions">*/
+/*                                     <li><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></li>*/
+/*                                 </ul>*/
+/*                             </form>*/
+/*                             <ul class="contact">*/
+/*                                 <li class="fa-home">*/
+/*                                     34 Carriage Lane<br>*/
+/*                                     Hanover NH 03755*/
+/*                                 </li>*/
+/*                                 <li class="fa-phone">(603) 676-7847</li>*/
+/*                             </ul>*/
+/*                             <ul class="copyright">*/
+/*                                 <li>© Reflen Inc. All rights reserved 2016.</li>*/
+/*                                 <li>*/
+/*                                 <ul class="social">    */
+/*                                 <li><a href="info@convospot.io"><i class="fa fa-envelope"></i></a></li>*/
+/*                                 <li><a href="https://www.facebook.com/reflenapp/?fref=ts"><i class="fa fa-facebook"></i></a></li>*/
+/*                                 <li><a href="https://twitter.com/reflenapp"><i class="fa fa-twitter"></i></a></li>  */
+/*                                 </ul>*/
+/*                                 </li>*/
+/*                                 <li>Design based on <a href="https://html5up.net/solid-state">solid state</a></li>*/
+/*                             </ul>*/
+/* */
+/*                         </div>*/
 /* </section>*/

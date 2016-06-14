@@ -1810,7 +1810,8 @@ ul {
       text-decoration: none;
       margin: 2.5em 0 0 0;
       padding: 0 0 0 3.25em;
-      position: relative; }
+      position: relative;
+      color: #F1F0FF; }
       ul.contact li:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
@@ -1819,8 +1820,6 @@ ul {
         font-weight: normal;
         text-transform: none !important; }
       ul.contact li:before {
-        border-radius: 100%;
-        border: solid 2px #d0d4d9;
         display: inline-block;
         font-size: 0.8em;
         height: 2.5em;
@@ -2021,15 +2020,19 @@ button,
       margin-right: 0; }
     .features article .image {
       border-radius: 5px 5px 0 0;
-      display: block;
       margin-bottom: 1.75em;
       margin-left: -1.75em;
       margin-top: -1.75em;
-      position: relative;
-      width: calc(100% + 3.5em); }
+      position: relative; }
+      .features article .image .image-cover {
+        background: #F1F0FF;
+        height: 120px;
+        width: 120px;
+        display: block;
+        border-radius: 50%; }
       .features article .image img {
-        border-radius: 5px 5px 0 0;
-        width: 100%; }
+        height: 100px;
+        border-radius: 5px 5px 0 0; }
   @media screen and (max-width: 980px) {
     .features article {
       margin: 1em 2em 1em 0;
@@ -2508,7 +2511,9 @@ body.is-menu-visible #menu {
     bottom: -6.5em;
     left: 0; }
   .wrapper.alt img {
-    float: right; }
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px; }
   .wrapper.alt:before {
     -moz-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -2675,6 +2680,13 @@ body.is-menu-visible #menu {
       width: calc(50% - 1.5em); }
     #footer .inner .contact {
       width: calc(50% - 1.5em); }
+    #footer .inner .social {
+      margin: 0; }
+      #footer .inner .social li {
+        display: inline-block; }
+        #footer .inner .social li a {
+          border: none;
+          color: #e0e0e0; }
     #footer .inner .copyright {
       border-top: solid 2px #d0d4d9;
       list-style: none;
