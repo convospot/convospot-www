@@ -37,7 +37,8 @@
        min-width: 250px;
        margin: 0 auto;
        input.left {
-            border-color: _palette(fg-bold);
+            font-size: 108%;
+            border-color: _palette(bold);
             color: _palette(fg-bold);
             width: calc(100% - 160px);
        }

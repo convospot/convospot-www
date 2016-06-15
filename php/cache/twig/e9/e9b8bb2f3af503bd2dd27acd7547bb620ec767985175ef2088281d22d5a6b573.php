@@ -107,6 +107,16 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
         <!-- convospot widget -->
         <script src=\"http://widget-convospot-io.herokuapp.com/convospot.js\" aid=\"
 100000\" token=\"GJzol\" async></script>
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79377505-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
     </body>
 </html>
@@ -171,7 +181,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 
     public function getDebugInfo()
     {
-        return array (  159 => 55,  156 => 54,  152 => 42,  149 => 41,  146 => 40,  143 => 39,  140 => 38,  137 => 37,  134 => 36,  132 => 35,  129 => 34,  126 => 33,  123 => 32,  120 => 31,  117 => 30,  104 => 66,  101 => 65,  98 => 64,  95 => 63,  92 => 62,  90 => 61,  85 => 58,  83 => 57,  80 => 56,  78 => 54,  75 => 53,  73 => 52,  69 => 51,  57 => 43,  55 => 30,  31 => 9,  21 => 1,);
+        return array (  169 => 55,  166 => 54,  162 => 42,  159 => 41,  156 => 40,  153 => 39,  150 => 38,  147 => 37,  144 => 36,  142 => 35,  139 => 34,  136 => 33,  133 => 32,  130 => 31,  127 => 30,  104 => 66,  101 => 65,  98 => 64,  95 => 63,  92 => 62,  90 => 61,  85 => 58,  83 => 57,  80 => 56,  78 => 54,  75 => 53,  73 => 52,  69 => 51,  57 => 43,  55 => 30,  31 => 9,  21 => 1,);
     }
 }
 /* <!DOCTYPE HTML>*/
@@ -243,6 +253,16 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /*         <!-- convospot widget -->*/
 /*         <script src="http://widget-convospot-io.herokuapp.com/convospot.js" aid="*/
 /* 100000" token="GJzol" async></script>*/
+/*         <script>*/
+/*   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){*/
+/*   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),*/
+/*   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)*/
+/*   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');*/
+/* */
+/*   ga('create', 'UA-79377505-1', 'auto');*/
+/*   ga('send', 'pageview');*/
+/* */
+/* </script>*/
 /* */
 /*     </body>*/
 /* </html>*/

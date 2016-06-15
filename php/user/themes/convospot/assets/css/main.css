@@ -2308,7 +2308,7 @@ body.is-menu-visible #menu {
     min-width: 250px;
     margin: 0 auto; }
     #banner .quick-signup input.left {
-      border-color: #9b4dca;
+      font-size: 108%;
       color: #9b4dca;
       width: calc(100% - 160px); }
   #banner .inner {
