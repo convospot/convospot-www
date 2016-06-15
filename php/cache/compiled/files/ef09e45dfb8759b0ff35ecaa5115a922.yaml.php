@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/homer/Projects/convospot-site/php/system/config/system.yaml',
-    'modified' => 1462396529,
+    'modified' => 1465996268,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
@@ -103,11 +103,11 @@ return [
             'umask_fix' => false
         ],
         'assets' => [
-            'css_pipeline' => false,
+            'css_pipeline' => 'yes',
             'css_minify' => true,
             'css_minify_windows' => false,
             'css_rewrite' => true,
-            'js_pipeline' => false,
+            'js_pipeline' => 'yes',
             'js_minify' => true,
             'enable_asset_timestamp' => false,
             'collections' => [

@@ -2304,13 +2304,13 @@ body.is-menu-visible #menu {
       left: 0;
       width: 100%; }
   #banner .quick-signup {
-    max-width: 400px;
+    max-width: 450px;
     min-width: 250px;
     margin: 0 auto; }
     #banner .quick-signup input.left {
       font-size: 108%;
       color: #9b4dca;
-      width: calc(100% - 160px); }
+      width: calc(100% - 180px); }
   #banner .inner {
     margin: 8em auto;
     text-align: center;
