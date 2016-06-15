@@ -18,19 +18,19 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
         // line 1
         echo "<section id=\"banner\">
     <div class=\"slash\">
-    \t<div class=\"relative-helper\">
-\t\t<img class=\"device\" src=\"/user/pages/01.home/slash.png\"></img>
-\t\t<img class=\"widget-demo\" src=\"/user/pages/01.home/demo.gif\"></img>
-\t\t</div>
+    <div class=\"color-mask\"></div>
+    <video muted autoplay class=\"fullscreen-bg\" poster=\"/user/pages/01.home/cover.png\">
+        <source src=\"/user/pages/01.home/demo.mp4\" type=\"video/mp4\">
+    </video>
     </div>
     <div class=\"inner\">
         ";
         // line 9
         echo (isset($context["content"]) ? $context["content"] : null);
         echo "
-        <div class=\"quick-signup\" style=\"width:400px;margin: 30px 0px;\">
+        <div class=\"quick-signup\">
 \t\t\t<form class=\"group\" action=\"//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate=\"\">
-\t\t\t\t\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"email left\" id=\"mce-EMAIL\" placeholder=\"email address\" required=\"\" style=\"height: 50px;\">
+\t\t\t\t\t<input type=\"email\" value=\"\" name=\"EMAIL\" class=\"email left\" id=\"mce-EMAIL\" placeholder=\"email address\" required=\"\">
 \t\t\t\t\t<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 \t\t\t\t\t<input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button right\"> </form>
 \t    </div>
@@ -58,16 +58,16 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
 }
 /* <section id="banner">*/
 /*     <div class="slash">*/
-/*     	<div class="relative-helper">*/
-/* 		<img class="device" src="/user/pages/01.home/slash.png"></img>*/
-/* 		<img class="widget-demo" src="/user/pages/01.home/demo.gif"></img>*/
-/* 		</div>*/
+/*     <div class="color-mask"></div>*/
+/*     <video muted autoplay class="fullscreen-bg" poster="/user/pages/01.home/cover.png">*/
+/*         <source src="/user/pages/01.home/demo.mp4" type="video/mp4">*/
+/*     </video>*/
 /*     </div>*/
 /*     <div class="inner">*/
 /*         {{ content }}*/
-/*         <div class="quick-signup" style="width:400px;margin: 30px 0px;">*/
+/*         <div class="quick-signup">*/
 /* 			<form class="group" action="//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">*/
-/* 					<input type="email" value="" name="EMAIL" class="email left" id="mce-EMAIL" placeholder="email address" required="" style="height: 50px;">*/
+/* 					<input type="email" value="" name="EMAIL" class="email left" id="mce-EMAIL" placeholder="email address" required="">*/
 /* 					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->*/
 /* 					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button right"> </form>*/
 /* 	    </div>*/

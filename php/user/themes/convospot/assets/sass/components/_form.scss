@@ -25,20 +25,8 @@ form {
 }
 
 form.group {
-    border-radius: _size(border-radius);
-    border: solid 1px _palette(border);
-    border-right: none;
     input {
         display: inline-block;
-    }
-    input.left {
-    	width: auto;
-        border: none;
-    }
-    input.right {
-        float:right;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
     }
 }
 
@@ -74,7 +62,7 @@ textarea {
         box-shadow: none;
     }
     &:focus {
-        border-color: desaturate(lighten(_palette(accent), 6), 3);
+        border-color: desaturate(lighten(_palette(fg-bold), 6), 3);
     }
 }
 
@@ -166,7 +154,7 @@ input[type="radio"],
     }
     &:focus + label {
         &:before {
-            border-color: _palette(accent);
+            border-color: _palette(fg-bold);
         }
     }
 }

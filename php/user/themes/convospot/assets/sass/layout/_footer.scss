@@ -20,9 +20,24 @@
 				width: 100%;
 			}
 
+			h2 {
+				color: _palette(fg-light);
+			}
+			
 			form {
 				margin: 0 _size(section-spacing, large) 0 0;
 				width: calc(50% - #{_size(section-spacing, large) * 0.5});
+				input {
+				   background: _palette(fg-light);
+				}
+				input.button {
+				   background: none;
+				   border: solid 1px  _palette(fg-light);
+				   color:  _palette(fg-light);
+				}
+				label {
+				   color: _palette(fg-light);
+				}
 			}
 
 			.contact {
@@ -71,11 +86,6 @@
 		}
 
 		@include breakpoint(large) {
-
-			background-color:		_palette(bg);
-
-			background-image:		linear-gradient(to top, transparentize(_palette(bg), 0.2), transparentize(_palette(bg), 0.2)),
-									url('../../images/bg.jpg');
 
 			background-size:		auto,
 									cover;
