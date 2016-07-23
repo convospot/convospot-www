@@ -2284,6 +2284,7 @@ body.is-menu-visible #menu {
 
 /* Banner */
 #banner {
+  overflow: hidden;
   padding: 6em 0 0.75em 0 ;
   text-align: center; }
   #banner div.color-mask {
