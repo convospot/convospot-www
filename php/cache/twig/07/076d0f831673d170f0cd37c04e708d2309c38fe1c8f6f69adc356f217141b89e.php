@@ -55,6 +55,7 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
                                 <li><a href=\"info@convospot.io\"><i class=\"fa fa-envelope\"></i></a></li>
                                 <li><a href=\"https://www.facebook.com/reflenapp/?fref=ts\"><i class=\"fa fa-facebook\"></i></a></li>
                                 <li><a href=\"https://twitter.com/reflenapp\"><i class=\"fa fa-twitter\"></i></a></li>  
+                                <li><a href=\"https://github.com/orgs/convospot\"><i class=\"fa fa-github\"></i></a></li>  
                                 </ul>
                                 </li>
                                 <li>Design based on <a href=\"https://html5up.net/solid-state\">solid state</a></li>
@@ -113,6 +114,7 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
 /*                                 <li><a href="info@convospot.io"><i class="fa fa-envelope"></i></a></li>*/
 /*                                 <li><a href="https://www.facebook.com/reflenapp/?fref=ts"><i class="fa fa-facebook"></i></a></li>*/
 /*                                 <li><a href="https://twitter.com/reflenapp"><i class="fa fa-twitter"></i></a></li>  */
+/*                                 <li><a href="https://github.com/orgs/convospot"><i class="fa fa-github"></i></a></li>  */
 /*                                 </ul>*/
 /*                                 </li>*/
 /*                                 <li>Design based on <a href="https://html5up.net/solid-state">solid state</a></li>*/

@@ -1,10 +1,8 @@
-1466572261
-s:1289:"<section id="banner">
+1469840228
+s:1114:"<section id="banner">
     <div class="slash">
     <div class="color-mask"></div>
-    <video muted autoplay class="fullscreen-bg" poster="/user/pages/01.home/cover.png">
-        <source src="/user/pages/01.home/demo.mp4" type="video/mp4">
-    </video>
+    
     </div>
     <div class="inner">
         <h2>Simple intelligent communication</h2>
@@ -14,7 +12,7 @@ s:1289:"<section id="banner">
 			<form class="group" action="//convospot.us13.list-manage.com/subscribe/post?u=5d09472ed22fd10a4e82ebc98&amp;id=46c363364d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
 					<input type="email" value="" name="EMAIL" class="email left" id="mce-EMAIL" placeholder="email address" required="">
 					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button right"> </form>
+					<input type="submit" value="DEMO" name="demo" id="mc-embedded-subscribe" class="button right"> </form>
 	    </div>
     </div>
     <img src="/user/pages/01.home/clickhere.png" style="z-index: 99; position: fixed; bottom: 58px; right: 30px;">

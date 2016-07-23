@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/homer/Projects/convospot-site/php/system/blueprints/config/streams.yaml',
-    'modified' => 1462396529,
+    'modified' => 1462396528,
     'data' => [
         'title' => 'PLUGIN_ADMIN.FILE_STREAMS',
         'form' => [

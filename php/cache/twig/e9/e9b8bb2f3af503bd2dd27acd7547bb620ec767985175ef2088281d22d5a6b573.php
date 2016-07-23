@@ -105,8 +105,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
         <!-- convospot widget -->
-        <script src=\"http://widget-convospot-io.herokuapp.com/convospot.js\" aid=\"
-100000\" token=\"GJzol\" async></script>
+        <script src=\"http://widget.convospots.com/convospot.js\"  aid=\"100007\" token=\"LqM6D\" async async></script>
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -181,7 +180,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 
     public function getDebugInfo()
     {
-        return array (  169 => 55,  166 => 54,  162 => 42,  159 => 41,  156 => 40,  153 => 39,  150 => 38,  147 => 37,  144 => 36,  142 => 35,  139 => 34,  136 => 33,  133 => 32,  130 => 31,  127 => 30,  104 => 66,  101 => 65,  98 => 64,  95 => 63,  92 => 62,  90 => 61,  85 => 58,  83 => 57,  80 => 56,  78 => 54,  75 => 53,  73 => 52,  69 => 51,  57 => 43,  55 => 30,  31 => 9,  21 => 1,);
+        return array (  168 => 55,  165 => 54,  161 => 42,  158 => 41,  155 => 40,  152 => 39,  149 => 38,  146 => 37,  143 => 36,  141 => 35,  138 => 34,  135 => 33,  132 => 32,  129 => 31,  126 => 30,  104 => 66,  101 => 65,  98 => 64,  95 => 63,  92 => 62,  90 => 61,  85 => 58,  83 => 57,  80 => 56,  78 => 54,  75 => 53,  73 => 52,  69 => 51,  57 => 43,  55 => 30,  31 => 9,  21 => 1,);
     }
 }
 /* <!DOCTYPE HTML>*/
@@ -251,8 +250,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /*         {% do assets.addJs('theme://assets/js/main.js') %}*/
 /*         {{ assets.js() }}*/
 /*         <!-- convospot widget -->*/
-/*         <script src="http://widget-convospot-io.herokuapp.com/convospot.js" aid="*/
-/* 100000" token="GJzol" async></script>*/
+/*         <script src="http://widget.convospots.com/convospot.js"  aid="100007" token="LqM6D" async async></script>*/
 /*         <script>*/
 /*   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){*/
 /*   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),*/

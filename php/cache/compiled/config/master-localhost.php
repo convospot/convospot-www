@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1465996281,
-    'checksum' => '997fffd3fcb157d7903ec480db055b04',
+    'timestamp' => 1469234956,
+    'checksum' => '7b46d8495b7598cb17112ace92ee6fc9',
     'files' => [
         'user/config' => [
+            'plugins/lightslider' => [
+                'file' => 'user/config/plugins/lightslider.yaml',
+                'modified' => 1469234713
+            ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1462396529
+                'modified' => 1462396528
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
@@ -15,21 +19,21 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1465967339
+                'modified' => 1469234937
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1462396529
+                'modified' => 1462396528
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1462396529
+                'modified' => 1462396528
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1462396529
+                'modified' => 1462396528
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
@@ -39,7 +43,7 @@ return [
         'user/plugins' => [
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1462396529
+                'modified' => 1462396528
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -48,6 +52,10 @@ return [
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1462396530
+            ],
+            'plugins/lightslider' => [
+                'file' => 'user/plugins/lightslider/lightslider.yaml',
+                'modified' => 1469234444
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -96,6 +104,34 @@ return [
                         0 => 'image/*'
                     ]
                 ]
+            ],
+            'lightslider' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'slider_type' => 'text',
+                'type_text_height' => 'auto',
+                'type_text_vertical_padding' => '80px',
+                'type_text_horizontal_padding' => '50px',
+                'type_text_brightness' => 0,
+                'item' => 1,
+                'slideMove' => 1,
+                'slideMargin' => 0,
+                'loop' => 'false',
+                'mode' => 'fade',
+                'controls' => 'true',
+                'keyPress' => 'true',
+                'auto' => 'false',
+                'pause' => 2000,
+                'speed' => 1000,
+                'pager' => 'true',
+                'gallery' => 'false',
+                'gallery_thumb_width' => 100,
+                'gallery_thumb_height' => 100,
+                'gallery_margin' => 15,
+                'gallery_thumb_margin' => 5,
+                'enableTouch' => 'true',
+                'enableDrag' => 'true',
+                'pauseOnHover' => 'false'
             ],
             'login' => [
                 'enabled' => true,
