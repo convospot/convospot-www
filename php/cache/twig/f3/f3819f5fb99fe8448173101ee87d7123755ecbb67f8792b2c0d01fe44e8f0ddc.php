@@ -31,7 +31,7 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
         echo "</span></a></h1>
     <nav>
         <a href=\"http://app.convospot.io/login\">Login</a>
-         <a href=\"http://app.convospot.io/signup\">Signup</a>
+         <a href=\"http://app.convospot.io/signup\" class=\"rev\">Signup</a>
         <a href=\"#menu\"><i class=\"zmdi zmdi-menu\"></i><span class=\"sr-only\">";
         // line 6
         echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "header", array()), "menu_name", array());
@@ -59,7 +59,7 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
 /*     <h1 class="logo"><a href="{{ page.find("/").url }}"><img src="{{ site.header.logo }}"></img><span class="sr-only">{{ site.header.title }}</span></a></h1>*/
 /*     <nav>*/
 /*         <a href="http://app.convospot.io/login">Login</a>*/
-/*          <a href="http://app.convospot.io/signup">Signup</a>*/
+/*          <a href="http://app.convospot.io/signup" class="rev">Signup</a>*/
 /*         <a href="#menu"><i class="zmdi zmdi-menu"></i><span class="sr-only">{{ site.header.menu_name }}</span></a>*/
 /*     </nav>*/
 /* </header>*/

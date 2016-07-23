@@ -2068,7 +2068,7 @@ button,
     border-bottom: 0;
     font-size: 0.8em;
     margin-bottom: 0;
-    margin-top: 26px;
+    margin-top: 28px;
     opacity: 1;
     visibility: visible;
     text-align: center; }
@@ -2117,6 +2117,8 @@ button,
           background-color: rgba(255, 255, 255, 0.025); }
         #header nav a[href="#menu"]:active {
           background-color: rgba(255, 255, 255, 0.075); }
+    #header nav a.rev {
+      color: #4a148c; }
   #header.alt {
     background-color: transparent;
     border-bottom: none;
@@ -2290,19 +2292,8 @@ body.is-menu-visible #menu {
     height: 100%;
     background: rgba(255, 255, 255, 0.8);
     z-index: 2; }
-  #banner .slash {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100; }
-    #banner .slash video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%; }
+  #banner .slash .slick-dots li.slick-active button:before {
+    color: #9b4dca; }
   #banner .quick-signup {
     max-width: 450px;
     min-width: 250px;

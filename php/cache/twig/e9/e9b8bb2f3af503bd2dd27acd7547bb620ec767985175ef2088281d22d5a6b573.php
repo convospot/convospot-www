@@ -60,53 +60,64 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 
         <!-- custom styles -->
         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css\">
+        <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css\"/>
+        <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css\"/>
     </head>
     <body>
         <!-- Page Wrapper -->
         <div id=\"page-wrapper\">          
             ";
-        // line 51
-        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 51)->display($context);
+        // line 53
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 53)->display($context);
         echo "         
             ";
-        // line 52
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 52)->display($context);
-        // line 53
-        echo "
-            ";
         // line 54
-        $this->displayBlock('content', $context, $blocks);
-        // line 56
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 54)->display($context);
+        // line 55
         echo "
             ";
-        // line 57
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 57)->display($context);
+        // line 56
+        $this->displayBlock('content', $context, $blocks);
         // line 58
+        echo "
+            ";
+        // line 59
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 59)->display($context);
+        // line 60
         echo "        </div>
         
         <!-- Scripts -->
         ";
-        // line 61
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/skel.min.js"), "method");
-        // line 62
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/jquery.min.js"), "method");
         // line 63
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/jquery.scrollex.min.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/skel.min.js"), "method");
         // line 64
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/util.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/jquery.min.js"), "method");
         // line 65
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/main.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/jquery.scrollex.min.js"), "method");
         // line 66
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/util.js"), "method");
+        // line 67
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/main.js"), "method");
+        // line 68
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
+        <script type=\"text/javascript\" src=\"//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js\"></script>
         <!-- convospot widget -->
         <script src=\"http://widget.convospots.com/convospot.js\"  aid=\"100007\" token=\"LqM6D\" async async></script>
         <script>
+
+ (function(\$){
+   \$('.slide').slick({dots: true,
+  infinite: false,speed: 800, autoplay: true, slidesToScroll: 1,
+  autoplaySpeed: 3000});
+ })(jQuery); 
+
+
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -115,7 +126,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
   ga('create', 'UA-79377505-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+         </script>
 
     </body>
 </html>
@@ -161,10 +172,10 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
         echo "    ";
     }
 
-    // line 54
+    // line 56
     public function block_content($context, array $blocks = array())
     {
-        // line 55
+        // line 57
         echo "            ";
     }
 
@@ -180,7 +191,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 
     public function getDebugInfo()
     {
-        return array (  168 => 55,  165 => 54,  161 => 42,  158 => 41,  155 => 40,  152 => 39,  149 => 38,  146 => 37,  143 => 36,  141 => 35,  138 => 34,  135 => 33,  132 => 32,  129 => 31,  126 => 30,  104 => 66,  101 => 65,  98 => 64,  95 => 63,  92 => 62,  90 => 61,  85 => 58,  83 => 57,  80 => 56,  78 => 54,  75 => 53,  73 => 52,  69 => 51,  57 => 43,  55 => 30,  31 => 9,  21 => 1,);
+        return array (  179 => 57,  176 => 56,  172 => 42,  169 => 41,  166 => 40,  163 => 39,  160 => 38,  157 => 37,  154 => 36,  152 => 35,  149 => 34,  146 => 33,  143 => 32,  140 => 31,  137 => 30,  106 => 68,  103 => 67,  100 => 66,  97 => 65,  94 => 64,  92 => 63,  87 => 60,  85 => 59,  82 => 58,  80 => 56,  77 => 55,  75 => 54,  71 => 53,  57 => 43,  55 => 30,  31 => 9,  21 => 1,);
     }
 }
 /* <!DOCTYPE HTML>*/
@@ -229,6 +240,8 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /* */
 /*         <!-- custom styles -->*/
 /*         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">*/
+/*         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>*/
+/*         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>*/
 /*     </head>*/
 /*     <body>*/
 /*         <!-- Page Wrapper -->*/
@@ -249,9 +262,18 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /*         {% do assets.addJs('theme://assets/js/util.js') %}*/
 /*         {% do assets.addJs('theme://assets/js/main.js') %}*/
 /*         {{ assets.js() }}*/
+/*         <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>*/
 /*         <!-- convospot widget -->*/
 /*         <script src="http://widget.convospots.com/convospot.js"  aid="100007" token="LqM6D" async async></script>*/
 /*         <script>*/
+/* */
+/*  (function($){*/
+/*    $('.slide').slick({dots: true,*/
+/*   infinite: false,speed: 800, autoplay: true, slidesToScroll: 1,*/
+/*   autoplaySpeed: 3000});*/
+/*  })(jQuery); */
+/* */
+/* */
 /*   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){*/
 /*   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),*/
 /*   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)*/
@@ -260,7 +282,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /*   ga('create', 'UA-79377505-1', 'auto');*/
 /*   ga('send', 'pageview');*/
 /* */
-/* </script>*/
+/*          </script>*/
 /* */
 /*     </body>*/
 /* </html>*/
