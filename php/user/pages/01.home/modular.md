@@ -8,5 +8,4 @@ content:
         custom:
             - _1_banner
             - _2_wrapper
-            - _3_lightslider
 ---

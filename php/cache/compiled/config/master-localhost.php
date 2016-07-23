@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1469234956,
-    'checksum' => '7b46d8495b7598cb17112ace92ee6fc9',
+    'timestamp' => 1469236180,
+    'checksum' => '9579e83ba6130e4763f9daefa4527170',
     'files' => [
         'user/config' => [
             'plugins/lightslider' => [
@@ -19,7 +19,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1469234937
+                'modified' => 1469236176
             ]
         ],
         'system/config' => [
@@ -52,10 +52,6 @@ return [
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1462396530
-            ],
-            'plugins/lightslider' => [
-                'file' => 'user/plugins/lightslider/lightslider.yaml',
-                'modified' => 1469234444
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -104,34 +100,6 @@ return [
                         0 => 'image/*'
                     ]
                 ]
-            ],
-            'lightslider' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'slider_type' => 'text',
-                'type_text_height' => 'auto',
-                'type_text_vertical_padding' => '80px',
-                'type_text_horizontal_padding' => '50px',
-                'type_text_brightness' => 0,
-                'item' => 1,
-                'slideMove' => 1,
-                'slideMargin' => 0,
-                'loop' => 'false',
-                'mode' => 'fade',
-                'controls' => 'true',
-                'keyPress' => 'true',
-                'auto' => 'false',
-                'pause' => 2000,
-                'speed' => 1000,
-                'pager' => 'true',
-                'gallery' => 'false',
-                'gallery_thumb_width' => 100,
-                'gallery_thumb_height' => 100,
-                'gallery_margin' => 15,
-                'gallery_thumb_margin' => 5,
-                'enableTouch' => 'true',
-                'enableDrag' => 'true',
-                'pauseOnHover' => 'false'
             ],
             'login' => [
                 'enabled' => true,
@@ -217,6 +185,34 @@ return [
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'lightslider' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'slider_type' => 'text',
+                'type_text_height' => 'auto',
+                'type_text_vertical_padding' => '80px',
+                'type_text_horizontal_padding' => '50px',
+                'type_text_brightness' => 0,
+                'item' => 1,
+                'slideMove' => 1,
+                'slideMargin' => 0,
+                'loop' => 'false',
+                'mode' => 'fade',
+                'controls' => 'true',
+                'keyPress' => 'true',
+                'auto' => 'false',
+                'pause' => 2000,
+                'speed' => 1000,
+                'pager' => 'true',
+                'gallery' => 'false',
+                'gallery_thumb_width' => 100,
+                'gallery_thumb_height' => 100,
+                'gallery_margin' => 15,
+                'gallery_thumb_margin' => 5,
+                'enableTouch' => 'true',
+                'enableDrag' => 'true',
+                'pauseOnHover' => 'false'
             ]
         ],
         'media' => [
