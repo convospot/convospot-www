@@ -25,7 +25,7 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
         // line 6
         echo (isset($context["content"]) ? $context["content"] : null);
         echo "
-                     <a href=\"https://www.facebook.com/socialnetworkincs/\" class=\"button sr-only\">Talk to a chatbot</a>
+                     <a href=\"https://www.facebook.com/socialnetworkincs/\" class=\"button\">Talk to a chatbot</a>
                 </div>
             </div>
             <div class=\"single-slide\">
@@ -59,7 +59,7 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
 /*             <div class="single-slide">*/
 /*                 <div class="inner">*/
 /*                     {{ content }}*/
-/*                      <a href="https://www.facebook.com/socialnetworkincs/" class="button sr-only">Talk to a chatbot</a>*/
+/*                      <a href="https://www.facebook.com/socialnetworkincs/" class="button">Talk to a chatbot</a>*/
 /*                 </div>*/
 /*             </div>*/
 /*             <div class="single-slide">*/

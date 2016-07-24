@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Convospot: simple and intelligent communication
 content:
     items: @self.modular
     order:

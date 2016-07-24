@@ -30,6 +30,8 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
         // line 9
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
         echo "</title>
+        <meta name=\"description\" content=\"Convospot provides chatbot for your site or app. It provides marketing and customer service intelligent. You can add your own knowledge and actions then let the chatbot to do the rest, or you can take control and let the chatbot to learn and improve its capacity\">
+        <meta name=\"keywords\" content=\"chatbot, communication, ai, marketing automation\">
         <meta charset=\"utf-8\" />
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
         <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"user/themes/convospot/assets/favicon/apple-icon-57x57.png\">
@@ -51,9 +53,9 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
         <meta name=\"theme-color\" content=\"#ffffff\">
         
         ";
-        // line 30
+        // line 32
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 43
+        // line 45
         echo "    ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "css", array(), "method");
         echo " 
@@ -67,42 +69,42 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
         <!-- Page Wrapper -->
         <div id=\"page-wrapper\">          
             ";
-        // line 53
-        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 53)->display($context);
+        // line 55
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 55)->display($context);
         echo "         
             ";
-        // line 54
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 54)->display($context);
-        // line 55
-        echo "
-            ";
         // line 56
-        $this->displayBlock('content', $context, $blocks);
-        // line 58
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 56)->display($context);
+        // line 57
         echo "
             ";
-        // line 59
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 59)->display($context);
+        // line 58
+        $this->displayBlock('content', $context, $blocks);
         // line 60
+        echo "
+            ";
+        // line 61
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 61)->display($context);
+        // line 62
         echo "        </div>
         
         <!-- Scripts -->
         ";
-        // line 63
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/skel.min.js"), "method");
-        // line 64
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/jquery.min.js"), "method");
         // line 65
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/jquery.scrollex.min.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/skel.min.js"), "method");
         // line 66
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/util.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/jquery.min.js"), "method");
         // line 67
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/main.js"), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/jquery.scrollex.min.js"), "method");
         // line 68
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/util.js"), "method");
+        // line 69
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/main.js"), "method");
+        // line 70
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
@@ -133,49 +135,49 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 ";
     }
 
-    // line 30
+    // line 32
     public function block_stylesheets($context, array $blocks = array())
     {
-        // line 31
+        // line 33
         echo "        ";
         if ((($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getBrowser", array()) == "msie") && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) == 8))) {
-            // line 32
+            // line 34
             echo "            ";
             $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/ie/html5shiv.js"), "method");
-            // line 33
+            // line 35
             echo "        ";
         }
-        // line 34
+        // line 36
         echo "        
         ";
-        // line 35
+        // line 37
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://assets/css/main.css", 1 => 103), "method");
-        // line 36
+        // line 38
         echo "        ";
         if ((($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getBrowser", array()) == "msie") && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) == 8))) {
-            // line 37
+            // line 39
             echo "            ";
             $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://assets/css/ie8.css"), "method");
-            // line 38
+            // line 40
             echo "        ";
         }
-        // line 39
+        // line 41
         echo "        ";
         if ((($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getBrowser", array()) == "msie") && ($this->getAttribute((isset($context["browser"]) ? $context["browser"] : null), "getVersion", array()) == 9))) {
-            // line 40
+            // line 42
             echo "            ";
             $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://assets/css/ie9.css"), "method");
-            // line 41
+            // line 43
             echo "        ";
         }
-        // line 42
+        // line 44
         echo "    ";
     }
 
-    // line 56
+    // line 58
     public function block_content($context, array $blocks = array())
     {
-        // line 57
+        // line 59
         echo "            ";
     }
 
@@ -191,7 +193,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 
     public function getDebugInfo()
     {
-        return array (  179 => 57,  176 => 56,  172 => 42,  169 => 41,  166 => 40,  163 => 39,  160 => 38,  157 => 37,  154 => 36,  152 => 35,  149 => 34,  146 => 33,  143 => 32,  140 => 31,  137 => 30,  106 => 68,  103 => 67,  100 => 66,  97 => 65,  94 => 64,  92 => 63,  87 => 60,  85 => 59,  82 => 58,  80 => 56,  77 => 55,  75 => 54,  71 => 53,  57 => 43,  55 => 30,  31 => 9,  21 => 1,);
+        return array (  181 => 59,  178 => 58,  174 => 44,  171 => 43,  168 => 42,  165 => 41,  162 => 40,  159 => 39,  156 => 38,  154 => 37,  151 => 36,  148 => 35,  145 => 34,  142 => 33,  139 => 32,  108 => 70,  105 => 69,  102 => 68,  99 => 67,  96 => 66,  94 => 65,  89 => 62,  87 => 61,  84 => 60,  82 => 58,  79 => 57,  77 => 56,  73 => 55,  59 => 45,  57 => 32,  31 => 9,  21 => 1,);
     }
 }
 /* <!DOCTYPE HTML>*/
@@ -203,6 +205,8 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /* <html>*/
 /*     <head>*/
 /*         <title>{{page.title}}</title>*/
+/*         <meta name="description" content="Convospot provides chatbot for your site or app. It provides marketing and customer service intelligent. You can add your own knowledge and actions then let the chatbot to do the rest, or you can take control and let the chatbot to learn and improve its capacity">*/
+/*         <meta name="keywords" content="chatbot, communication, ai, marketing automation">*/
 /*         <meta charset="utf-8" />*/
 /*         <meta name="viewport" content="width=device-width, initial-scale=1" />*/
 /*         <link rel="apple-touch-icon" sizes="57x57" href="user/themes/convospot/assets/favicon/apple-icon-57x57.png">*/

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1469240878,
-    'checksum' => '4c5334a63554407179fe99ac25a8bff8',
+    'timestamp' => 1469385759,
+    'checksum' => '4b8a567ec7622def1a8346f95fc4c17a',
     'files' => [
         'user/config' => [
             'plugins/lightslider' => [
@@ -19,7 +19,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1469240519
+                'modified' => 1469385755
             ]
         ],
         'system/config' => [

@@ -1312,7 +1312,6 @@ a {
   color: #9b4dca;
   text-decoration: none; }
   a:hover {
-    border-bottom-color: transparent;
     color: #9b4dca !important; }
   a.special:not(.button) {
     text-decoration: none;
@@ -2089,7 +2088,9 @@ button,
     position: absolute;
     right: 0.7em;
     text-transform: uppercase;
-    top: 0.7em; }
+    top: 0.5em; }
+    #header nav a.small {
+      font-size: 75%; }
     #header nav a {
       border: 0;
       display: inline-block;
