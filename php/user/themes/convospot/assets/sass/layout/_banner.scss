@@ -34,13 +34,24 @@
         }
     }
     .inner {
-        margin: 8em auto;
+        margin: 4em auto;
         text-align: center;
         width: _size(inner);
-        p,
         h1,
         h2 {
+            font-size: 180%;
             margin-bottom: 0px;
+        }
+        p {
+            line-height: 26px;
+        }
+        h3 {
+            margin-bottom: 0px;
+            color: #4a148c;
+            text-transform: uppercase;
+        }
+        .content {
+            text-align: left;
         }
     }
     .logo {

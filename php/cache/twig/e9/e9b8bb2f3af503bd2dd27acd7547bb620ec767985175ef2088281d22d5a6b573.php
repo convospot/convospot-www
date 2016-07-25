@@ -115,7 +115,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 
  (function(\$){
    \$('.slide').slick({dots: true,
-  infinite: false,speed: 800, autoplay: true, slidesToScroll: 1,
+  infinite: false,speed: 800, slidesToScroll: 1,   //add autoplay: true in prod
   autoplaySpeed: 3000});
  })(jQuery); 
 
@@ -273,7 +273,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /* */
 /*  (function($){*/
 /*    $('.slide').slick({dots: true,*/
-/*   infinite: false,speed: 800, autoplay: true, slidesToScroll: 1,*/
+/*   infinite: false,speed: 800, slidesToScroll: 1,   //add autoplay: true in prod*/
 /*   autoplaySpeed: 3000});*/
 /*  })(jQuery); */
 /* */

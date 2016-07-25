@@ -2305,13 +2305,21 @@ body.is-menu-visible #menu {
       color: #9b4dca;
       width: calc(100% - 180px); }
   #banner .inner {
-    margin: 8em auto;
+    margin: 4em auto;
     text-align: center;
     width: 55em; }
-    #banner .inner p,
     #banner .inner h1,
     #banner .inner h2 {
+      font-size: 180%;
       margin-bottom: 0px; }
+    #banner .inner p {
+      line-height: 26px; }
+    #banner .inner h3 {
+      margin-bottom: 0px;
+      color: #4a148c;
+      text-transform: uppercase; }
+    #banner .inner .content {
+      text-align: left; }
   #banner .logo {
     -moz-transition: opacity 2s ease, -moz-transform 1s ease;
     -webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
