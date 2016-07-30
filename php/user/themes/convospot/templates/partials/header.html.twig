@@ -1,7 +1,7 @@
 <header id="header"{% if page.home %} class="alt"{% endif %}>
     <h1 class="logo"><a href="{{ page.find("/").url }}"><img src="{{ site.header.logo }}"></img><span class="sr-only">{{ site.header.title }}</span></a></h1>
     <nav>
-        <!-- <a href="http://app.convospot.io/login" class="small ">Talk</a> -->
+        <a href="#" class="small" onclick="showConvospot()">Talk</a>
         <a href="http://app.convospot.io/login" class="small ">Login</a>
         <a href="http://app.convospot.io/signup" class="small rev">Signup</a>
         <a href="#menu"><i class="zmdi zmdi-menu"></i><span class="sr-only">{{ site.header.menu_name }}</span></a>
