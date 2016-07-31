@@ -1,11 +1,11 @@
-title: convospot.io - simple intelligent communication
+title: convospot.io
 header:
   logo: 'user/themes/convospot/assets/imgs/logo.svg'
-  title: convospot
   menu_name: 'MENU'
 author:
   name: Homer Quan
   email: 'web@convospot.io'
 metadata:
-    description: 'Convospot provides chatbot with knowledge and actions'
+    description: 'Simple and intelligent communication by chatbots with knowledge and actions'
+    keywords: 'chatbot, communication, ai, marketing automation'
 

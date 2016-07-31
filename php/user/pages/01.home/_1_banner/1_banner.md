@@ -1,5 +1,5 @@
-
-## Simple intelligent communication
-### by chatbots with **knowledge** and **actions**
-
-<!-- ![logo](/user/themes/convospot/assets/imgs/logo.svg)  -->
+---
+title: Communication with intelligence
+sub: Engage with customers by an AI personal assiatant with knowledge and actions
+image: /user/pages/01.home/_1_banner/conversation.png
+---

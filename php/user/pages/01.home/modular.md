@@ -1,5 +1,5 @@
 ---
-title: Convospot: simple and intelligent communication by chatbots with knowledge and actions
+title: Home
 content:
     items: @self.modular
     order:
