@@ -1,18 +1,20 @@
-<section id="banner">
+1470675076
+s:730:"<section id="banner">
     <div class="slash">
         <div class="inner">
             <div class="pure-g">
                 <div class="pure-u-1-2">
-                    <h2>{{page.header.title}}</h2>
-                    <h3>{{page.header.sub}}</h3>
+                    <h2>Communication with intelligence</h2>
+                    <h3>Engage with customers by an AI personal assiatant with knowledge and actions</h3>
                     <ul class="actions">
                         <li><a href="http://app.convospot.io/signup" class="button">Signup for free</a></li>
                     </ul>
                 </div>
                 <div class="pure-u-1-2">
-                    <img src="{{page.header.image}}" alt="demo"></img>
+                    <img src="/user/pages/01.home/_1_banner/conversation.png" alt="demo"></img>
                 </div>
             </div>
         </div>
     </div>
 </section>
+";

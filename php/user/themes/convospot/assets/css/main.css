@@ -2286,7 +2286,7 @@ body.is-menu-visible #menu {
 /* Banner */
 #banner {
   overflow: hidden;
-  padding: 6em 0 0.75em 0 ;
+  padding: 6em 0 4em 0 ;
   text-align: center; }
   #banner div.color-mask {
     position: absolute;
@@ -2305,7 +2305,7 @@ body.is-menu-visible #menu {
       color: #9b4dca;
       width: calc(100% - 180px); }
   #banner .inner {
-    margin: 4em auto;
+    margin: 4em auto 0;
     text-align: left;
     width: 55em; }
     #banner .inner h1,
@@ -2320,7 +2320,8 @@ body.is-menu-visible #menu {
     #banner .inner h3 {
       margin-bottom: 0px;
       color: #47525d;
-      font-size: 21px; }
+      font-size: 21px;
+      padding-bottom: 32px; }
     #banner .inner .content {
       text-align: left; }
   #banner .logo {
@@ -2403,10 +2404,8 @@ body.is-menu-visible #menu {
       #banner .inner {
         width: 100%;
         margin: 6em auto 8em auto; }
-      #banner .slash {
-        display: none; }
       #banner .inner {
-        margin: 6em auto 8em auto; } }
+        margin: 6em auto 0 auto; } }
   @media screen and (max-width: 736px) {
     #banner {
       padding: 5em 2em 4.25em 2em ;
@@ -2419,8 +2418,6 @@ body.is-menu-visible #menu {
         font-size: 1.5em; }
       #banner p {
         font-size: 0.8em; }
-      #banner .slash {
-        display: none; }
       #banner .inner {
         margin: 6em auto 8em auto; } }
   body.is-loading #banner .logo {
@@ -2459,7 +2456,8 @@ body.is-menu-visible #menu {
     border-bottom: solid 2px #d0d4d9;
     font-size: 2em;
     margin-bottom: 0.8em;
-    padding-bottom: 0.4em; }
+    padding-bottom: 0.4em;
+    color: #4a148c; }
   #wrapper > header p {
     font-family: "Dosis", sans-serif;
     font-size: 1em;
@@ -2495,28 +2493,8 @@ body.is-menu-visible #menu {
 
 .wrapper {
   background-color: #ffffff;
-  margin: 6.5em 0;
+  margin: 0;
   position: relative; }
-  .wrapper:before, .wrapper:after {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23ffffff;' /%3E%3C/svg%3E"); }
-  .wrapper:before, .wrapper:after {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-    display: block;
-    height: 6.5em;
-    position: absolute;
-    width: 100%; }
-  .wrapper:before {
-    left: 0;
-    top: -6.5em; }
-  .wrapper:after {
-    -moz-transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-    -ms-transform: scaleY(-1);
-    transform: scaleY(-1);
-    bottom: -6.5em;
-    left: 0; }
   .wrapper.alt img {
     float: right;
     margin-right: 10px;
@@ -2537,28 +2515,16 @@ body.is-menu-visible #menu {
     width: 55em; }
   .wrapper.style2 {
     background-color: white; }
-    .wrapper.style2:before, .wrapper.style2:after {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:white;' /%3E%3C/svg%3E"); }
   .wrapper.style3 {
     background-color: white; }
-    .wrapper.style3:before, .wrapper.style3:after {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:white;' /%3E%3C/svg%3E"); }
   .wrapper.style4 {
     background-color: white; }
-    .wrapper.style4:before, .wrapper.style4:after {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:white;' /%3E%3C/svg%3E"); }
   .wrapper.style5 {
     background-color: white; }
-    .wrapper.style5:before, .wrapper.style5:after {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:white;' /%3E%3C/svg%3E"); }
   .wrapper.style6 {
     background-color: white; }
-    .wrapper.style6:before, .wrapper.style6:after {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:white;' /%3E%3C/svg%3E"); }
   .wrapper.spotlight {
     background-color: #F1F0FF; }
-    .wrapper.spotlight:before, .wrapper.spotlight:after {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23F1F0FF;' /%3E%3C/svg%3E"); }
     .wrapper.spotlight .inner {
       display: -moz-flex;
       display: -webkit-flex;
@@ -2592,34 +2558,17 @@ body.is-menu-visible #menu {
       margin: 0 0 2em 3em; }
     .wrapper.spotlight.style2 {
       background-color: #e3e1ff; }
-      .wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23e3e1ff;' /%3E%3C/svg%3E"); }
     .wrapper.spotlight.style3 {
       background-color: #d4d1ff; }
-      .wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23d4d1ff;' /%3E%3C/svg%3E"); }
     .wrapper.spotlight.style4 {
       background-color: #c6c2ff; }
-      .wrapper.spotlight.style4:before, .wrapper.spotlight.style4:after {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23c6c2ff;' /%3E%3C/svg%3E"); }
     .wrapper.spotlight.style5 {
       background-color: #b8b3ff; }
-      .wrapper.spotlight.style5:before, .wrapper.spotlight.style5:after {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23b8b3ff;' /%3E%3C/svg%3E"); }
     .wrapper.spotlight.style6 {
       background-color: #aaa4ff; }
-      .wrapper.spotlight.style6:before, .wrapper.spotlight.style6:after {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23aaa4ff;' /%3E%3C/svg%3E"); }
   @media screen and (max-width: 980px) {
     .wrapper {
       margin: 4.75em 0; }
-      .wrapper:before, .wrapper:after {
-        height: 4.75em; }
-      .wrapper:before {
-        top: -4.75em; }
-      .wrapper:after {
-        bottom: -4.75em;
-        left: 0; }
       .wrapper .inner {
         padding: 3em 3em 1em 3em ;
         width: 100%; }
@@ -2631,13 +2580,6 @@ body.is-menu-visible #menu {
   @media screen and (max-width: 736px) {
     .wrapper {
       margin: 2.5em 0; }
-      .wrapper:before, .wrapper:after {
-        height: 2.5em; }
-      .wrapper:before {
-        top: -2.5em; }
-      .wrapper:after {
-        bottom: -2.5em;
-        left: 0; }
       .wrapper .inner {
         padding: 2em 2em 0.1em 2em ; }
       .wrapper.spotlight .inner {

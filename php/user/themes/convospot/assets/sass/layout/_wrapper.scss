@@ -6,14 +6,6 @@
 
 /* Wrapper */
 
-	/// Sets the colors of the wrapper's top/bottom edges.
-	/// @param {string} $color Color.
-	@mixin wrapper-edges-color($color: black) {
-		&:before, &:after {
-			background-image: svg-url('<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" preserveAspectRatio="none"><polygon points="0,100 100,0 100,100" style="fill:#{$color};" /></svg>');
-		}
-	}
-
 	#wrapper {
 		> header {
 			@include padding(7.5em, 0, (3.5em, 0, _size(wrapper-edges, large) * -0.5, 0));
@@ -28,6 +20,7 @@
 				font-size: 2em;
 				margin-bottom: _size(element-margin) * 0.4;
 				padding-bottom: _size(element-margin) * 0.2;
+				color: #4a148c;
 			}
 
 			p {
@@ -99,30 +92,8 @@
 
 	.wrapper {
 		background-color: _palette(bg);
-		margin: _size(wrapper-edges, large) 0;
+		margin: _size(wrapper-edges, none) 0;
 		position: relative;
-		@include wrapper-edges-color(_palette(bg));
-
-		&:before, &:after {
-			background-repeat: no-repeat;
-			background-size: 100% 100%;
-			content: '';
-			display: block;
-			height: _size(wrapper-edges, large);
-			position: absolute;
-			width: 100%;
-		}
-
-		&:before {
-			left: 0;
-			top: (_size(wrapper-edges, large) * -1);
-		}
-
-		&:after {
-			@include vendor('transform', 'scaleY(-1)');
-			bottom: (_size(wrapper-edges, large) * -1);
-			left: 0;
-		}
 
 		&.alt {
 		    img {
@@ -151,12 +122,10 @@
 
 			&.style#{$i} {
 				background-color: $color;
-				@include wrapper-edges-color($color);
 			}
 		}
 
 		&.spotlight {
-			@include wrapper-edges-color(_palette(accent));
 			background-color: _palette(accent);
 
 			.inner {
@@ -196,26 +165,12 @@
 
 				&.style#{$i} {
 					background-color: $color;
-					@include wrapper-edges-color($color);
 				}
 			}
 		}
 
 		@include breakpoint(medium) {
 			margin: _size(wrapper-edges, medium) 0;
-
-			&:before, &:after {
-				height: _size(wrapper-edges, medium);
-			}
-
-			&:before {
-				top: (_size(wrapper-edges, medium) * -1);
-			}
-
-			&:after {
-				bottom: (_size(wrapper-edges, medium) * -1);
-				left: 0;
-			}
 
 			.inner {
 				@include padding(3em, 3em);
@@ -238,19 +193,6 @@
 
 		@include breakpoint(small) {
 			margin: _size(wrapper-edges, small) 0;
-
-			&:before, &:after {
-				height: _size(wrapper-edges, small);
-			}
-
-			&:before {
-				top: (_size(wrapper-edges, small) * -1);
-			}
-
-			&:after {
-				bottom: (_size(wrapper-edges, small) * -1);
-				left: 0;
-			}
 
 			.inner {
 				@include padding(2em, 2em);

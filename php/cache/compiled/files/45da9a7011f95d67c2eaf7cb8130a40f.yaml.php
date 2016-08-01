@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/homer/Projects/convospot-site/php/user/config/system.yaml',
-    'modified' => 1469936931,
+    'modified' => 1470070259,
     'data' => [
         'home' => [
             'alias' => '/home'

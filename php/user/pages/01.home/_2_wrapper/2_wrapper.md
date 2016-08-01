@@ -3,7 +3,7 @@ sections:
     one:
         type: section1
         style: style1
-        image: robot1.png
+        image: widget.png
         title: "Engage customers with automation" 
         body: "For your business, it maybe a luxury to have 24/7 live chat. Convospot's chatbots can **automatically talk** to your customers. They learn from past conversations and improve themselves."
         button_url: #

@@ -8,7 +8,7 @@
 
 #banner {
     overflow: hidden;
-    @include padding(6em, 0, (0, 0, _size(wrapper-edges, large) * -0.5, 0));
+    @include padding(6em, 0, (0, 0, 0, 0));
     text-align: center;
     div.color-mask {
         position: absolute;
@@ -34,7 +34,7 @@
         }
     }
     .inner {
-        margin: 4em auto;
+        margin: 4em auto 0;
         text-align: left;
         width: _size(inner);
         h1,
@@ -52,6 +52,7 @@
             margin-bottom: 0px;
             color: #47525d;
             font-size: 21px;
+            padding-bottom: 32px;
         }
         .content {
             text-align: left;
@@ -118,11 +119,8 @@
             width: 100%;
             margin: 6em auto 8em auto;
         }
-        .slash {
-            display: none;
-        }
         .inner {
-            margin: 6em auto 8em auto;
+            margin: 6em auto 0 auto;
         }
     }
     @include breakpoint(small) {
@@ -141,9 +139,6 @@
         }
         p {
             font-size: 0.8em;
-        }
-        .slash {
-            display: none;
         }
         .inner {
             margin: 6em auto 8em auto;
