@@ -2,11 +2,11 @@
     "name": "getgrav/grav",
     "type": "library",
     "description": "Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS",
-    "keywords": ["cms","flat-file cms","flat cms","flatfile cms","php"],
+    "keywords": ["cms", "flat-file cms", "flat cms", "flatfile cms", "php"],
     "homepage": "http://getgrav.org",
     "license": "MIT",
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=5.5.0",
         "twig/twig": "~1.23",
         "erusev/parsedown-extra": "~0.7",
         "symfony/yaml": "~2.8",
