@@ -13,5 +13,8 @@
     });
 
     var nav = responsiveNav(".nav-collapse");
+    $(window).resize(function() {
+        nav.close();
+    });
 
 })(jQuery);

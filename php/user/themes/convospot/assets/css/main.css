@@ -1308,7 +1308,6 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  border-bottom: dotted 1px #e0e0e0;
   color: #9b4dca;
   text-decoration: none; }
   a:hover {
@@ -2066,9 +2065,35 @@ body.convospot-site .features {
     line-height: 2.5em;
     position: absolute;
     right: 0.7em;
-    top: 0; }
+    top: 0;
+    width: 100%;
+    text-align: right; }
+    #header nav a.nav-toggle {
+      text-decoration: none;
+      text-indent: 300px;
+      position: relative;
+      overflow: hidden;
+      width: 80px;
+      height: 80px;
+      float: right; }
+    #header nav a.nav-toggle:before {
+      color: #141f3b;
+      font: normal 40px/80px "FontAwesome";
+      text-transform: none;
+      text-align: center;
+      position: absolute;
+      content: "\f0c9";
+      text-indent: 0;
+      speak: none;
+      width: 100%;
+      left: 0;
+      top: 0; }
+    #header nav a.nav-toggle.active:before {
+      content: "\f00d"; }
+    #header nav ul {
+      width: 100%; }
     #header nav ul li {
-      display: inline-block !important;
+      display: inline-block;
       list-style: none;
       width: auto; }
       #header nav ul li a.small {
@@ -2112,28 +2137,23 @@ body.convospot-site .features {
         padding: 5px 1em; }
       #header nav ul li a.rev:hover {
         background: #e0e0e0; }
-    #header nav li.end {
-      border-left: solid 1px #e0e0e0; }
     #header nav .sep-txt {
       font-size: 60%;
       color: #e0e0e0; }
   @media screen and (max-width: 736px) {
-    #header {
-      height: 5.75em;
-      line-height: 2.75em; }
-      #header nav {
-        top: 0;
-        right: 0;
-        height: inherit; }
-        #header nav a {
-          height: inherit;
-          line-height: inherit; }
-          #header nav a[href="#menu"] {
-            box-shadow: none;
-            padding: 0 1em;
-            border-radius: 0; }
-            #header nav a[href="#menu"]:hover, #header nav a[href="#menu"]:active {
-              background-color: inherit; } }
+    #header nav {
+      top: 0;
+      right: 0;
+      height: inherit; }
+      #header nav a {
+        height: inherit;
+        line-height: inherit; }
+        #header nav a[href="#menu"] {
+          box-shadow: none;
+          padding: 0 1em;
+          border-radius: 0; }
+          #header nav a[href="#menu"]:hover, #header nav a[href="#menu"]:active {
+            background-color: inherit; } }
   @media screen and (max-width: 640px) {
     #header nav a[href="#menu"]:before {
       width: inherit;
@@ -2144,6 +2164,14 @@ body.convospot-site .features {
       text-align: right;
       margin-left: 0;
       padding-right: 1.25em; } }
+
+.js-nav-active #header .nav-collapse {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.95294);
+  border-bottom: 1px solid #d0d4d9;
+  box-shadow: 0px 1px 1px #d0d4d9; }
+.js-nav-active #header ul li {
+  display: block; }
 
 /* Menu */
 #page-wrapper {
