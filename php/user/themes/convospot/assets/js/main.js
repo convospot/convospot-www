@@ -12,4 +12,6 @@
         }
     });
 
+    var nav = responsiveNav(".nav-collapse");
+
 })(jQuery);

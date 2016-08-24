@@ -28,7 +28,6 @@
         text-align: left;
         a {
             border: 0;
-            color: _palette(fg-bold);
             font-size: 200%;
             img {
                 margin-right: 5px;
@@ -37,46 +36,68 @@
         }
     }
     nav {
-        font-family: _font(family-heading);
+        font-family: "Roboto", sans-serif;
         font-size: 1.6em;
-        font-weight: _font(weight-heading-bold);
-        height: 3em;
-        letter-spacing: _font(kern-heading);
-        line-height: 3em;
+        font-weight: 400;
+        height: 100%;
+        letter-spacing: 0.1em;
+        line-height: 2.5em;
         position: absolute;
         right: 0.7em;
-        text-transform: uppercase;
-        top: 0.5em;
-        a.small {
-           font-size:75%;
-        }
-        a {
-            border: 0;
-            display: inline-block;
-            padding: 0 1em;
-            &:before {
-                float: right;
-                margin-left: 0.75em;
+        top: 0;
+        ul li {
+            display: inline-block !important;
+            list-style: none;
+            width: auto;
+            a.small {
+                font-size: 60%;
             }
-            &[href="#menu"] {
-                @include icon;
-                @include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
-                color: _palette(control);
-                border-radius: _size(border-radius);
-                padding: 0 1.35em;
-                &:hover {
-                    background-color: _palette(border-bg);
+            a.has-border {
+                border: solid 3px _palette(fg-bold);
+                border-radius: 5px;
+                padding: 5px 1em;
+                color: _palette(fg-bold);
+            }
+            a {
+                border: 0;
+                padding: 0 5px;
+                color: _palette(fg-dark);
+                &:before {
+                    float: right;
+                    margin-left: 0.75em;
                 }
-                &:active {
-                    background-color: _palette(border2-bg);
+                &[href="#menu"] {
+                    @include icon;
+                    @include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+                    color: _palette(control);
+                    border-radius: _size(border-radius);
+                    padding: 0 10px;
+                    &:hover {
+                        background-color: _palette(border-bg);
+                    }
+                    &:active {
+                        background-color: _palette(border2-bg);
+                    }
                 }
             }
+            a.rev {
+                color: white;
+                background: _palette(fg-bold);
+                border-radius: 5px;
+                padding: 5px 1em;
+            }
+            a.rev:hover {
+                background: _palette(fg-light);
+            }
         }
-        a.rev {
-           color: #4a148c;
+        li.end {
+            border-left: solid 1px #e0e0e0
+        }
+        .sep-txt {
+            font-size: 60%;
+            color: _palette(fg-light);
         }
     }
-
     @include breakpoint(small) {
         height: 5.75em;
         line-height: 2.75em;
@@ -84,7 +105,6 @@
             top: 0;
             right: 0;
             height: inherit;
-            line-height: 3.5em;
             a {
                 height: inherit;
                 line-height: inherit;

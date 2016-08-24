@@ -38,17 +38,19 @@
     <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
     <!--<![endif]-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/responsive-nav/1.0.39/responsive-nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">
 </head>
 
-<body>
+<body class="convospot-site">
     <!-- Page Wrapper -->
     <div id="page-wrapper">
         {% include 'partials/header.html.twig' %} {% include 'partials/navigation.html.twig' %} {% block content %} {% endblock %} {% include 'partials/footer.html.twig' %}
     </div>
     <!-- Scripts -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/responsive-nav/1.0.39/responsive-nav.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min.js"></script>
     {% do assets.addJs('theme://assets/js/main.js') %} {{ assets.js() }}

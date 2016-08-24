@@ -74,30 +74,32 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
     <!--[if gt IE 8]><!-->
     <link rel=\"stylesheet\" href=\"http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css\">
     <!--<![endif]-->
+    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/responsive-nav/1.0.39/responsive-nav.css\">
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css\">
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css\">
 </head>
 
-<body>
+<body class=\"convospot-site\">
     <!-- Page Wrapper -->
     <div id=\"page-wrapper\">
         ";
-        // line 48
-        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 48)->display($context);
+        // line 49
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 49)->display($context);
         echo " ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 48)->display($context);
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 49)->display($context);
         echo " ";
         $this->displayBlock('content', $context, $blocks);
         echo " ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 48)->display($context);
-        // line 49
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 49)->display($context);
+        // line 50
         echo "    </div>
     <!-- Scripts -->
     <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-1.12.4.min.js\" integrity=\"sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=\" crossorigin=\"anonymous\"></script>
+    <script src=\"https://cdn.jsdelivr.net/responsive-nav/1.0.39/responsive-nav.min.js\"></script>
     <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min.js\"></script>
     <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min.js\"></script>
     ";
-        // line 54
+        // line 56
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/main.js"), "method");
         echo " ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
@@ -154,7 +156,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
         echo " ";
     }
 
-    // line 48
+    // line 49
     public function block_content($context, array $blocks = array())
     {
         echo " ";
@@ -172,7 +174,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 
     public function getDebugInfo()
     {
-        return array (  158 => 48,  130 => 32,  101 => 54,  94 => 49,  86 => 48,  65 => 32,  43 => 13,  39 => 12,  33 => 11,  21 => 1,);
+        return array (  160 => 49,  132 => 32,  103 => 56,  95 => 50,  87 => 49,  65 => 32,  43 => 13,  39 => 12,  33 => 11,  21 => 1,);
     }
 }
 /* <!DOCTYPE HTML>*/
@@ -215,17 +217,19 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /*     <!--[if gt IE 8]><!-->*/
 /*     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">*/
 /*     <!--<![endif]-->*/
+/*     <link rel="stylesheet" href="https://cdn.jsdelivr.net/responsive-nav/1.0.39/responsive-nav.css">*/
 /*     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">*/
 /*     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.css">*/
 /* </head>*/
 /* */
-/* <body>*/
+/* <body class="convospot-site">*/
 /*     <!-- Page Wrapper -->*/
 /*     <div id="page-wrapper">*/
 /*         {% include 'partials/header.html.twig' %} {% include 'partials/navigation.html.twig' %} {% block content %} {% endblock %} {% include 'partials/footer.html.twig' %}*/
 /*     </div>*/
 /*     <!-- Scripts -->*/
 /*     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>*/
+/*     <script src="https://cdn.jsdelivr.net/responsive-nav/1.0.39/responsive-nav.min.js"></script>*/
 /*     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min.js"></script>*/
 /*     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min.js"></script>*/
 /*     {% do assets.addJs('theme://assets/js/main.js') %} {{ assets.js() }}*/

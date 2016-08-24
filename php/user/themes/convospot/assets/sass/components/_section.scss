@@ -6,8 +6,10 @@
 
 /* Section/Article */
 
+body.convospot-site {
 	section, article {
 		&.special {
 			text-align: center;
 		}
 	}
+}	

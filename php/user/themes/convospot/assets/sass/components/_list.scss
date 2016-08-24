@@ -5,7 +5,7 @@
 ///
 
 /* List */
-
+body.convospot-site {
 	ol {
 		list-style: decimal;
 		margin: 0 0 _size(element-margin) 0;
@@ -212,3 +212,4 @@
 			margin-left: _size(element-margin);
 		}
 	}
+}	

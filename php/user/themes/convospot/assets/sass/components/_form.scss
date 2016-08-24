@@ -5,7 +5,7 @@
 ///
 
 /* Form */
-
+body.convospot-site {
 form {
     margin: 0 0 _size(element-margin) 0;
     .field {
@@ -198,4 +198,5 @@ input[type="radio"] {
 .polyfill-placeholder {
     color: _palette(fg-light) !important;
     opacity: 1.0;
+}
 }

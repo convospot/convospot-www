@@ -5,7 +5,7 @@
 ///
 
 /* Box */
-
+body.convospot-site {
 	.box {
 		border-radius: _size(border-radius);
 		border: solid 2px _palette(border);
@@ -24,3 +24,4 @@
 			padding: 0;
 		}
 	}
+}	
