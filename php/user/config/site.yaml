@@ -1,6 +1,7 @@
 title: convospot.io
 header:
   logo: 'user/themes/convospot/assets/imgs/logo.png'
+  logo_with_text: 'user/themes/convospot/assets/imgs/logo_wt.png'
   menu_name: 'MENU'
 author:
   name: Homer Quan

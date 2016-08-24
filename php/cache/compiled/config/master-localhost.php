@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1471671992,
-    'checksum' => '698be3a178e859fbbcb85b1972a1f160',
+    'timestamp' => 1472002990,
+    'checksum' => 'eff15784a40c550585dd01bc04d93326',
     'files' => [
         'user/config' => [
             'plugins/lightslider' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1471671972
+                'modified' => 1472002061
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
@@ -485,6 +485,7 @@ return [
             ],
             'header' => [
                 'logo' => 'user/themes/convospot/assets/imgs/logo.png',
+                'logo_with_text' => 'user/themes/convospot/assets/imgs/logo_wt.png',
                 'menu_name' => 'MENU'
             ]
         ],
