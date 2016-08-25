@@ -7,5 +7,6 @@ content:
         dir: asc
         custom:
             - _1_banner
-            - _2_wrapper
+            - _2_ribbon
+            - _3_wrapper
 ---

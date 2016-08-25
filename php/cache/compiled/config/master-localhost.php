@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1472002990,
-    'checksum' => 'eff15784a40c550585dd01bc04d93326',
+    'timestamp' => 1472095858,
+    'checksum' => '7492bbba7d477744a2037d47f9c3ef61',
     'files' => [
         'user/config' => [
             'plugins/lightslider' => [
@@ -15,11 +15,11 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1472002061
+                'modified' => 1472091324
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1470085500
+                'modified' => 1472095855
             ]
         ],
         'system/config' => [
@@ -463,7 +463,7 @@ return [
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Simple and intelligent communication by chatbots with knowledge and actions',
+                'description' => 'Communication with intelligence',
                 'keywords' => 'chatbot, communication, ai, marketing automation'
             ],
             'summary' => [
