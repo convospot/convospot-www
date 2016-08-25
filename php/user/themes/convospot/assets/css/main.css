@@ -1967,6 +1967,12 @@ body.convospot-site .button {
     body.convospot-site button,
     body.convospot-site .button {
       padding: 0 10px; } }
+body.convospot-site .button.rev {
+  background-color: #4a148c;
+  border: none;
+  color: white; }
+body.convospot-site .button.rev:hover {
+  background: #e0e0e0; }
 
 /* Features */
 body.convospot-site .features {
@@ -2340,7 +2346,7 @@ body.is-menu-visible #menu {
     #banner .inner h3 {
       margin-bottom: 0px;
       color: #47525d;
-      font-size: 18px;
+      font-size: 21px;
       padding-bottom: 32px; }
     #banner .inner .content {
       text-align: left; }
@@ -2436,6 +2442,8 @@ body.is-menu-visible #menu {
           font-size: 1.5em; }
       #banner h2 {
         font-size: 1.5em; }
+      #banner h3 {
+        font-size: 1.2em; }
       #banner p {
         font-size: 0.8em; }
       #banner .inner {
@@ -2627,7 +2635,7 @@ body.is-menu-visible #menu {
 
 /* Footer */
 #footer {
-  background-color: #141f3b; }
+  background-color: #4c4c4c; }
   #footer .inner {
     padding: 5em 0 3em 0 ;
     display: -moz-flex;

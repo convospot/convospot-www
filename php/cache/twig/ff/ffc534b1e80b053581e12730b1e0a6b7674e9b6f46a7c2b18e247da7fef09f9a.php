@@ -16,7 +16,7 @@ class __TwigTemplate_7457a73975e7aa97ecf80a4e733f80304d4a979467190aa4cc99b52ae70
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<!-- <section class=\"customer\">
+        echo "<section class=\"customer\">
   <ul class=\"customer-list\">
     <li><a class=\"node\" title=\"Node.js\" href=\"/nodejs\">Node.js</a></li>
     <li><a class=\"ruby\" title=\"Ruby\" href=\"/ruby\">Ruby</a></li>
@@ -27,7 +27,7 @@ class __TwigTemplate_7457a73975e7aa97ecf80a4e733f80304d4a979467190aa4cc99b52ae70
     <li><a class=\"scala\" title=\"Scala\" href=\"/scala\">Scala</a></li>
     <li><a class=\"clojure\" title=\"Clojure\" href=\"/clojure\">Clojure</a></li>
   </ul>
-</section> -->";
+</section>";
     }
 
     public function getTemplateName()
@@ -40,7 +40,7 @@ class __TwigTemplate_7457a73975e7aa97ecf80a4e733f80304d4a979467190aa4cc99b52ae70
         return array (  19 => 1,);
     }
 }
-/* <!-- <section class="customer">*/
+/* <section class="customer">*/
 /*   <ul class="customer-list">*/
 /*     <li><a class="node" title="Node.js" href="/nodejs">Node.js</a></li>*/
 /*     <li><a class="ruby" title="Ruby" href="/ruby">Ruby</a></li>*/
@@ -51,4 +51,4 @@ class __TwigTemplate_7457a73975e7aa97ecf80a4e733f80304d4a979467190aa4cc99b52ae70
 /*     <li><a class="scala" title="Scala" href="/scala">Scala</a></li>*/
 /*     <li><a class="clojure" title="Clojure" href="/clojure">Clojure</a></li>*/
 /*   </ul>*/
-/* </section> -->*/
+/* </section>*/

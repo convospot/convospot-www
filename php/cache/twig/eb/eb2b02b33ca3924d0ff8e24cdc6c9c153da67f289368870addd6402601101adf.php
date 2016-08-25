@@ -30,7 +30,7 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "sub", array());
         echo "</h3>
                     <ul class=\"actions\">
-                        <li><a href=\"http://app.convospot.io/signup\" class=\"button\">Signup for free</a></li>
+                        <li><a href=\"http://app.convospot.io/signup\" class=\"button rev\">Signup for free</a></li>
                     </ul>
                 </div>
                 <div class=\"pure-u-1 pure-u-md-1-2\">
@@ -77,7 +77,7 @@ class __TwigTemplate_798b550a6cabf0c41cad1a3f00bca089a6f743776e42fc36629879e7448
 /*                     <h2>{{page.header.title}}</h2>*/
 /*                     <h3>{{page.header.sub}}</h3>*/
 /*                     <ul class="actions">*/
-/*                         <li><a href="http://app.convospot.io/signup" class="button">Signup for free</a></li>*/
+/*                         <li><a href="http://app.convospot.io/signup" class="button rev">Signup for free</a></li>*/
 /*                     </ul>*/
 /*                 </div>*/
 /*                 <div class="pure-u-1 pure-u-md-1-2">*/

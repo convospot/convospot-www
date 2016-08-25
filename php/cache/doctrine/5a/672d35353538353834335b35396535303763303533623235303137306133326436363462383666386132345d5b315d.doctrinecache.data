@@ -1,5 +1,5 @@
-1472758540
-s:615:"<!-- <section class="customer">
+1472763298
+s:606:"<section class="customer">
   <ul class="customer-list">
     <li><a class="node" title="Node.js" href="/nodejs">Node.js</a></li>
     <li><a class="ruby" title="Ruby" href="/ruby">Ruby</a></li>
@@ -10,4 +10,4 @@ s:615:"<!-- <section class="customer">
     <li><a class="scala" title="Scala" href="/scala">Scala</a></li>
     <li><a class="clojure" title="Clojure" href="/clojure">Clojure</a></li>
   </ul>
-</section> -->";
+</section>";
