@@ -2081,13 +2081,13 @@ body.convospot-site .features {
       color: #141f3b;
       font: normal 32px/80px "FontAwesome";
       text-transform: none;
-      text-align: center;
+      text-align: right;
       position: absolute;
       content: "\f0c9";
       text-indent: 0;
       speak: none;
       width: 100%;
-      left: 0;
+      right: 10px;
       top: 0; }
     #header nav a.nav-toggle.active:before {
       content: "\f00d"; }
