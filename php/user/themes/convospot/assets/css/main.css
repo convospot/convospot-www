@@ -2143,11 +2143,16 @@ body.convospot-site .features {
       color: #e0e0e0; }
   @media screen and (max-width: 980px) {
     #header .logo {
+      -webkit-transition: width 0.3s ease-in-out;
+      -moz-transition: width 0.3s ease-in-out;
+      -ms-transition: width 0.3s ease-in-out;
+      -o-transition: width 0.3s ease-in-out;
+      transition: width 0.3s ease-in-out;
       width: 45px;
       overflow: hidden; } }
 
 .js-nav-active #header .nav-collapse {
-  text-align: center;
+  text-align: left;
   background: rgba(255, 255, 255, 0.95294);
   border-bottom: 1px solid #d0d4d9;
   box-shadow: 0px 1px 1px #d0d4d9; }
