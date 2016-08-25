@@ -2158,6 +2158,8 @@ body.convospot-site .features {
   box-shadow: 0px 1px 1px #d0d4d9; }
 .js-nav-active #header ul li {
   display: block; }
+.js-nav-active #header a.small {
+  font-size: 100%; }
 
 /* Menu */
 #page-wrapper {
