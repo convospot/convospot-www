@@ -139,13 +139,13 @@
     .nav-collapse {
         text-align: left;
         background: rgba(255, 255, 255, 0.952941);
-        border-bottom: 1px solid _palette(border);
-        box-shadow: 0px 1px 1px _palette(border);
+        border-bottom: 2px solid _palette(border);
+        box-shadow: 0px 2px 2px _palette(border);
     }
     ul li {
         display: block;
     }
     a.small {
-        font-size: 100%;
+        font-size: 75%;
      }
 }
