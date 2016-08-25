@@ -2046,10 +2046,11 @@ body.convospot-site .features {
     border-bottom: 0;
     font-size: 0.8em;
     margin-bottom: 0;
-    margin-top: 14px;
+    margin-top: 18px;
     opacity: 1;
     visibility: visible;
-    text-align: left; }
+    text-align: left;
+    width: 250px; }
     #header .logo a {
       border: 0;
       font-size: 200%; }
@@ -2078,7 +2079,7 @@ body.convospot-site .features {
       float: right; }
     #header nav a.nav-toggle:before {
       color: #141f3b;
-      font: normal 40px/80px "FontAwesome";
+      font: normal 32px/80px "FontAwesome";
       text-transform: none;
       text-align: center;
       position: absolute;
@@ -2140,30 +2141,10 @@ body.convospot-site .features {
     #header nav .sep-txt {
       font-size: 60%;
       color: #e0e0e0; }
-  @media screen and (max-width: 736px) {
-    #header nav {
-      top: 0;
-      right: 0;
-      height: inherit; }
-      #header nav a {
-        height: inherit;
-        line-height: inherit; }
-        #header nav a[href="#menu"] {
-          box-shadow: none;
-          padding: 0 1em;
-          border-radius: 0; }
-          #header nav a[href="#menu"]:hover, #header nav a[href="#menu"]:active {
-            background-color: inherit; } }
-  @media screen and (max-width: 640px) {
-    #header nav a[href="#menu"]:before {
-      width: inherit;
-      position: absolute;
-      top: 0;
-      left: 0;
-      text-indent: 0;
-      text-align: right;
-      margin-left: 0;
-      padding-right: 1.25em; } }
+  @media screen and (max-width: 980px) {
+    #header .logo {
+      width: 45px;
+      overflow: hidden; } }
 
 .js-nav-active #header .nav-collapse {
   text-align: center;

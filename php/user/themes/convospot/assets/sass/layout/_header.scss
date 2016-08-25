@@ -22,10 +22,11 @@
         border-bottom: 0;
         font-size: 0.8em;
         margin-bottom: 0;
-        margin-top: 14px;
+        margin-top: 18px;
         opacity: 1;
         visibility: visible;
         text-align: left;
+        width: 250px;
         a {
             border: 0;
             font-size: 200%;
@@ -58,7 +59,7 @@
         }
         a.nav-toggle:before {
             color: _palette(fg-dark);
-            font: normal 40px/80px "FontAwesome";
+            font: normal 32px/80px "FontAwesome";
             text-transform: none;
             text-align: center;
             position: absolute;
@@ -125,42 +126,10 @@
             color: _palette(fg-light);
         }
     }
-    @include breakpoint(small) {
-        nav {
-            top: 0;
-            right: 0;
-            height: inherit;
-            a {
-                height: inherit;
-                line-height: inherit;
-                &[href="#menu"] {
-                    box-shadow: none;
-                    padding: 0 1em;
-                    border-radius: 0;
-                    &:hover,
-                    &:active {
-                        background-color: inherit;
-                    }
-                }
-            }
-        }
-    }
-    @include breakpoint(xsmall) {
-        nav {
-            a {
-                &[href="#menu"] {
-                    &:before {
-                        width: inherit;
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        text-indent: 0;
-                        text-align: right;
-                        margin-left: 0;
-                        padding-right: 1.25em;
-                    }
-                }
-            }
+    @include breakpoint(medium) {
+        .logo {
+            width: 45px;
+            overflow: hidden;
         }
     }
 }
