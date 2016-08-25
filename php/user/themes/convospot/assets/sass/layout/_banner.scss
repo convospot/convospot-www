@@ -34,16 +34,25 @@
         }
     }
     .inner {
-        margin: 4em auto 0;
+        margin: 6em auto 0;
         text-align: left;
         width: _size(inner);
         h1,
         h2 {
-            font-size: 180%;
             margin-bottom: 0px;
             color: #4a148c;
-            font-size: 35px;
-            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 1.2;
+            font-weight: 300;
+        }
+        @include breakpoint(medium) {
+            h2 {
+                margin-bottom: 0px;
+                color: #4a148c;
+                font-size: 24px;
+                line-height: 1.2;
+                font-weight: 600;
+            }
         }
         p {
             line-height: 26px;
@@ -51,7 +60,7 @@
         h3 {
             margin-bottom: 0px;
             color: #47525d;
-            font-size: 21px;
+            font-size: 18px;
             padding-bottom: 32px;
         }
         .content {
@@ -117,10 +126,10 @@
         margin-bottom: (_size(wrapper-edges, medium) * -1);
         .inner {
             width: 100%;
-            margin: 6em auto 8em auto;
-        }
-        .inner {
             margin: 6em auto 0 auto;
+            img {
+                width: 100%;
+            }
         }
     }
     @include breakpoint(small) {

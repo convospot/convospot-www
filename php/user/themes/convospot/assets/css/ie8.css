@@ -9,16 +9,16 @@ body {
 
 /* Type */
 h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-  border-bottom: solid 2px #9b4dca; }
+  border-bottom: solid 2px #4a148c; }
 
 blockquote {
-  border-left: solid 4px #9b4dca; }
+  border-left: solid 4px #4a148c; }
 
 code {
-  border: solid 2px #9b4dca; }
+  border: solid 2px #4a148c; }
 
 hr {
-  border-bottom: solid 2px #9b4dca; }
+  border-bottom: solid 2px #4a148c; }
 
 /* Button */
 input[type="submit"],
@@ -28,7 +28,7 @@ button,
 .button {
   position: relative;
   -ms-behavior: url("assets/js/ie/PIE.htc");
-  border: solid 2px #9b4dca; }
+  border: solid 2px #4a148c; }
   input[type="submit"].special,
   input[type="reset"].special,
   input[type="button"].special,
@@ -46,15 +46,15 @@ textarea {
   position: relative;
   -ms-behavior: url("assets/js/ie/PIE.htc");
   background: transparent;
-  border: solid 2px #9b4dca; }
+  border: solid 2px #4a148c; }
 
 /* Table */
 table tbody tr {
-  border: solid 1px #9b4dca;
+  border: solid 1px #4a148c;
   border-left: 0;
   border-right: 0; }
 table.alt tbody tr td {
-  border: solid 1px #9b4dca;
+  border: solid 1px #4a148c;
   border-left-width: 0;
   border-top-width: 0; }
   table.alt tbody tr td:first-child {
@@ -80,7 +80,7 @@ table.alt tfoot {
 #menu {
   background: #ffffff; }
   #menu h2 {
-    border-bottom: solid 2px #9b4dca; }
+    border-bottom: solid 2px #4a148c; }
 
 /* Header */
 #header {
@@ -99,15 +99,15 @@ table.alt tfoot {
 
 /* Banner */
 #banner .logo .icon {
-  border: solid 2px #9b4dca;
+  border: solid 2px #4a148c;
   -ms-behavior: url("assets/js/ie/PIE.htc"); }
 #banner h2 {
-  border-bottom: solid 2px #9b4dca; }
+  border-bottom: solid 2px #4a148c; }
 
 /* Footer */
 #footer .inner .copyright {
-  border-top: solid 2px #9b4dca; }
+  border-top: solid 2px #4a148c; }
   #footer .inner .copyright li {
-    border-left: solid 2px #9b4dca; }
+    border-left: solid 2px #4a148c; }
 
 /*# sourceMappingURL=ie8.css.map */

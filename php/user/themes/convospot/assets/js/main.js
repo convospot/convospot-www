@@ -15,6 +15,7 @@
     var nav = responsiveNav(".nav-collapse",{
         animate: false
     });
+
     $(window).resize(function() {
         nav.close();
     });

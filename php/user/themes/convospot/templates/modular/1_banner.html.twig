@@ -10,7 +10,11 @@
                     </ul>
                 </div>
                 <div class="pure-u-1 pure-u-md-1-2">
+
+                    {% if (page.header.image) %}
                     <img src="{{page.header.image}}" alt="demo"></img>
+                    {% endif %}
+
                 </div>
             </div>
         </div>

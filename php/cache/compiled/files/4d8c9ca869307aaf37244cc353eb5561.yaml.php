@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/homer/Projects/convospot-site/php/user/config/site.yaml',
-    'modified' => 1472091324,
+    'modified' => 1472129761,
     'data' => [
         'title' => 'convospot.io',
         'header' => [
@@ -15,7 +15,7 @@ return [
             'email' => 'web@convospot.io'
         ],
         'metadata' => [
-            'description' => 'Communication with intelligence',
+            'description' => 'Live Communication with Intelligence',
             'keywords' => 'chatbot, communication, ai, marketing automation'
         ]
     ]
