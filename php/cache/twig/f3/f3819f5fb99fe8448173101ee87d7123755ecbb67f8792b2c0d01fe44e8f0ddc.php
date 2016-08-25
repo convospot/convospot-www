@@ -29,7 +29,10 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
         <ul class=\"nav-collapse\">
             <li>
                 <a href=\"#\" class=\"small has-border\" ontap=\"showConvospot()\" onclick=\"showConvospot()\">Talk to bot</a>
-            </li>\t
+            </li>
+            <li>
+                <a href=\"#\" class=\"small\">About</a>
+            </li>
             <li>
                 <a href=\"http://doc.convospot.io\" class=\"small\">Doc</a>
             </li>
@@ -42,7 +45,7 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
                 <a href=\"http://app.convospot.io/signup\" class=\"small rev\">Signup</a>
             </li>
             <!-- <a href=\"#menu\"><i class=\"zmdi zmdi-menu\"></i><span class=\"sr-only\">";
-        // line 19
+        // line 22
         echo $this->getAttribute($this->getAttribute((isset($context["site"]) ? $context["site"] : null), "header", array()), "menu_name", array());
         echo "</span></a> -->
         </ul>
@@ -62,7 +65,7 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
 
     public function getDebugInfo()
     {
-        return array (  46 => 19,  22 => 2,  19 => 1,);
+        return array (  49 => 22,  22 => 2,  19 => 1,);
     }
 }
 /* <header id="header" class="navbar headroom" role="banner">*/
@@ -71,7 +74,10 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
 /*         <ul class="nav-collapse">*/
 /*             <li>*/
 /*                 <a href="#" class="small has-border" ontap="showConvospot()" onclick="showConvospot()">Talk to bot</a>*/
-/*             </li>	*/
+/*             </li>*/
+/*             <li>*/
+/*                 <a href="#" class="small">About</a>*/
+/*             </li>*/
 /*             <li>*/
 /*                 <a href="http://doc.convospot.io" class="small">Doc</a>*/
 /*             </li>*/
