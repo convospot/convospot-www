@@ -643,3 +643,6 @@
 [2016-08-25 04:01:04] grav.WARNING: Plugin 'lightslider' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
 [2016-08-25 04:02:20] grav.WARNING: Plugin 'lightslider' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
 [2016-08-25 05:32:06] grav.WARNING: Plugin 'lightslider' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
+[2016-08-25 05:37:23] grav.WARNING: Plugin 'lightslider' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
+[2016-08-25 05:37:59] grav.WARNING: Plugin 'lightslider' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
+[2016-08-25 05:38:16] grav.WARNING: Plugin 'lightslider' enabled but not found! Try clearing cache with `bin/grav clear-cache` [] []
