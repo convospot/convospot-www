@@ -29,7 +29,7 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
         <ul class=\"nav-collapse\">
             <li>
                 <a href=\"#\" class=\"small has-border\" ontap=\"showConvospot()\" onclick=\"showConvospot()\">Talk to bot</a>
-            </li>
+            </li>\t
             <li>
                 <a href=\"http://doc.convospot.io\" class=\"small\">Doc</a>
             </li>
@@ -47,8 +47,7 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
         echo "</span></a> -->
         </ul>
     </nav>
-</header>
-";
+</header>";
     }
 
     public function getTemplateName()
@@ -72,7 +71,7 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
 /*         <ul class="nav-collapse">*/
 /*             <li>*/
 /*                 <a href="#" class="small has-border" ontap="showConvospot()" onclick="showConvospot()">Talk to bot</a>*/
-/*             </li>*/
+/*             </li>	*/
 /*             <li>*/
 /*                 <a href="http://doc.convospot.io" class="small">Doc</a>*/
 /*             </li>*/
@@ -88,4 +87,3 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
 /*         </ul>*/
 /*     </nav>*/
 /* </header>*/
-/* */

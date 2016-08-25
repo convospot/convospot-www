@@ -2098,7 +2098,7 @@ body.convospot-site .features {
       list-style: none;
       width: auto; }
       #header nav ul li a.small {
-        font-size: 60%; }
+        font-size: 14px; }
       #header nav ul li a.has-border {
         border: solid 3px #9b4dca;
         border-radius: 5px;
