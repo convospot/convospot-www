@@ -12,14 +12,14 @@ sections:
         type: section1
         style: style2
         image: knowledge.png
-        title: "Leverage your own knowledge" 
+        title: "Leverage and share knowledge" 
         body: "Our AI engine is tailored to each user using customized models. It's **only for you**. Importing, exporting, and editing knowledge can be as easy as copying and pasting a text file."
         button_url: #
         button_caption: Learn more
     three:
         type: section1
         style: style3
-        image: robot3.png
+        image: realtime.png
         title: "Real-time analysis plus actions" 
         body: "Keep track of customers' activities and extract their intentions from the **real-time event stream**. Take actions whenever you need."
         button_url: #
