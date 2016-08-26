@@ -2474,6 +2474,14 @@ body.is-menu-visible #menu {
     -ms-filter: blur(2px);
     filter: blur(2px); }
 
+.convospot-site #customer {
+  background: linear-gradient(#fff, #f7f7f7); }
+  .convospot-site #customer ul {
+    margin: 0; }
+    .convospot-site #customer ul li {
+      display: inline;
+      list-style: none; }
+
 /* Wrapper */
 #wrapper > header {
   padding: 11em 0 2.25em 0 ; }
@@ -2572,6 +2580,7 @@ body.is-menu-visible #menu {
     .wrapper.spotlight .image {
       margin: 0 3em 2em 0;
       width: 300px;
+      overflow: hidden;
       -ms-flex: 1; }
     .wrapper.spotlight .content {
       max-width: 600px;
