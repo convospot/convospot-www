@@ -1798,7 +1798,7 @@ body.convospot-site ul {
       margin: 2.5em 0 0 0;
       padding: 0 0 0 3.25em;
       position: relative;
-      color: #F1F0FF; }
+      color: #f1f0ff; }
       body.convospot-site ul.contact li:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
@@ -1926,7 +1926,7 @@ body.convospot-site .button {
   body.convospot-site input[type="button"].special,
   body.convospot-site button.special,
   body.convospot-site .button.special {
-    background-color: #F1F0FF;
+    background-color: #f1f0ff;
     box-shadow: none; }
     body.convospot-site input[type="submit"].special:hover,
     body.convospot-site input[type="reset"].special:hover,
@@ -2239,7 +2239,7 @@ body.convospot-site .features {
     -ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
     transition: opacity 0.35s ease, transform 0.35s ease;
     -webkit-overflow-scrolling: touch;
-    background: #F1F0FF;
+    background: #f1f0ff;
     border-radius: 5px;
     display: block;
     max-width: 100%;
@@ -2573,7 +2573,7 @@ body.is-menu-visible #menu {
   .wrapper.style6 {
     background-color: white; }
   .wrapper.spotlight {
-    background-color: #F1F0FF; }
+    background-color: #fbfbfc; }
     .wrapper.spotlight .inner {
       display: -moz-flex;
       display: -webkit-flex;
@@ -2605,16 +2605,6 @@ body.is-menu-visible #menu {
       text-align: right; }
     .wrapper.spotlight:nth-child(2n - 1) .image {
       margin: 0 0 2em 3em; }
-    .wrapper.spotlight.style2 {
-      background-color: #e3e1ff; }
-    .wrapper.spotlight.style3 {
-      background-color: #d4d1ff; }
-    .wrapper.spotlight.style4 {
-      background-color: #c6c2ff; }
-    .wrapper.spotlight.style5 {
-      background-color: #b8b3ff; }
-    .wrapper.spotlight.style6 {
-      background-color: #aaa4ff; }
   @media screen and (max-width: 980px) {
     .wrapper {
       margin: 4.75em 0; }

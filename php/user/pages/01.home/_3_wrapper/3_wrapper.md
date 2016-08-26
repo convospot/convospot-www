@@ -11,9 +11,9 @@ sections:
     two:
         type: section1
         style: style2
-        image: robot2.png
+        image: knowledge.png
         title: "Leverage your own knowledge" 
-        body: "Our AI engine is tailored to each user using customized models. It's **only for you**. Importing, exporting, and editing knowledge can be as easy as copying and pasting a file."
+        body: "Our AI engine is tailored to each user using customized models. It's **only for you**. Importing, exporting, and editing knowledge can be as easy as copying and pasting a text file."
         button_url: #
         button_caption: Learn more
     three:
