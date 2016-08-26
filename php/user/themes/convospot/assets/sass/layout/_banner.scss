@@ -49,7 +49,7 @@
             h2 {
                 margin-bottom: 0px;
                 color: #4a148c;
-                font-size: 24px;
+                font-size: 32px;
                 line-height: 1.2;
                 font-weight: 600;
             }
@@ -87,26 +87,13 @@
             width: 2.25em;
         }
     }
-    h2 {
-        font-size: 2.25em;
-    }
-    h3 {
-        font-size: 1.4em;
-    }
     h2,
     h3 {
-        @include vendor('transition', ( 'opacity 0.5s ease', 'transform 0.5s ease', 'filter 0.25s ease', ));
-        @include vendor('transform', 'translateX(0)');
-        @include vendor('filter', 'blur(0)');
         opacity: 1;
         margin-bottom: _size(element-margin) * 0.4;
         padding-bottom: _size(element-margin) * 0.2;
     }
     p {
-        @include vendor('transition', ( 'opacity 0.5s ease', 'transform 0.5s ease', 'filter 0.25s ease', ));
-        @include vendor('transform', 'translateX(0)');
-        @include vendor('transition-delay', '0.8s');
-        @include vendor('filter', 'blur(0)');
         opacity: 1;
         font-family: _font(family-heading);
         font-size: 1em;
@@ -146,40 +133,8 @@
                 font-size: 1.5em;
             }
         }
-        h2 {
-            font-size: 1.5em;
-        }
-        h3 {
-            font-size: 1.2em;
-        }
-        p {
-            font-size: 0.8em;
-        }
         .inner {
             margin: 3em auto 0em auto;
-        }
-    }
-    body.is-loading & {
-        .logo {
-            @include vendor('transform',
-            'translateY(0.5em)');
-            opacity: 0.8;
-        }
-        h2,
-        h3 {
-            opacity: 1;
-            @include vendor('transform',
-            'translateX(0.25em)');
-        }
-        h3 {
-            opacity: 0.5;
-        }
-        p {
-            opacity: 0;
-            @include vendor('transform',
-            'translateX(0.5em)');
-            @include vendor('filter',
-            'blur(2px)');
         }
     }
 }

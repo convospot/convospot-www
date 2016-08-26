@@ -141,6 +141,7 @@
         }
         &.spotlight {
             .image {
+                display: block;
                 margin: 0 _size(section-spacing, medium) _size(element-margin) 0;
                 width: 32em;
             }
