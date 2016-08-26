@@ -1320,10 +1320,6 @@ body, input, select, textarea {
       font-size: 12pt; } }
 
 a {
-  -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   color: #4a148c;
   text-decoration: none; }
   a:hover {
@@ -1337,7 +1333,8 @@ a {
     font-weight: 600;
     letter-spacing: 0.1em;
     margin: 0 0 2em 0;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #2c2d30; }
     a.special:not(.button):before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
@@ -1346,15 +1343,12 @@ a {
       font-weight: normal;
       text-transform: none !important; }
     a.special:not(.button):before {
-      -moz-transition: background-color 0.2s ease-in-out;
-      -webkit-transition: background-color 0.2s ease-in-out;
-      -ms-transition: background-color 0.2s ease-in-out;
-      transition: background-color 0.2s ease-in-out;
       border-radius: 100%;
       border: solid 2px #d0d4d9;
+      color: #d0d4d9;
       content: '\f105';
       display: inline-block;
-      font-size: 1.25em;
+      font-size: 1em;
       height: 2em;
       line-height: 1.65em;
       margin-right: 0.85em;
@@ -1880,10 +1874,6 @@ body.convospot-site .button {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 5px;
   border: solid 2px #4a148c;
@@ -2529,11 +2519,13 @@ body.is-menu-visible #menu {
       flex-direction: row; }
     .wrapper.spotlight .image {
       margin: 0 3em 2em 0;
-      width: 300px;
+      max-width: 300px;
       overflow: hidden;
       -ms-flex: 1; }
+      .wrapper.spotlight .image img {
+        width: 100%; }
     .wrapper.spotlight .content {
-      max-width: 550px;
+      max-width: 600px;
       text-align: left;
       width: 100%;
       -ms-flex: 2; }

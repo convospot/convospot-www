@@ -35,7 +35,6 @@
 	}
 
 	a {
-		@include vendor('transition', 'color #{_duration(transition)} ease-in-out, border-bottom-color #{_duration(transition)} ease-in-out');
 		color: _palette(fg-bold);
 		text-decoration: none;
 
@@ -53,14 +52,15 @@
 			letter-spacing: _font(kern-heading);
 			margin: 0 0 _size(element-margin) 0;
 			text-transform: uppercase;
+			color: _palette(fg);
 
 			&:before {
-				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
 				border-radius: 100%;
 				border: solid 2px _palette(border);
+				color: _palette(border);
 				content: '\f105';
 				display: inline-block;
-				font-size: 1.25em;
+				font-size: 1em;
 				height: 2em;
 				line-height: 1.65em;
 				margin-right: 0.85em;
