@@ -1270,8 +1270,6 @@ body {
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center; }
-  body h2, body h3 {
-    letter-spacing: 0.04em; }
   body.is-loading *,
   body.is-loading *:before,
   body.is-loading *:after {
@@ -1333,7 +1331,7 @@ a {
     font-family: "Dosis", sans-serif;
     font-size: 0.8em;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.04em;
     margin: 0 0 2em 0;
     text-transform: uppercase;
     color: #2c2d30; }
@@ -1377,7 +1375,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #4a148c;
   font-family: "Dosis", sans-serif;
   font-weight: 300;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.04em;
   margin: 0 0 1em 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
@@ -1484,7 +1482,7 @@ body.convospot-site label {
   font-family: "Dosis", sans-serif;
   font-size: 0.8em;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.04em;
   margin: 0 0 0.7em 0;
   text-transform: uppercase; }
 body.convospot-site input[type="text"],
@@ -1886,7 +1884,7 @@ body.convospot-site .button {
   font-size: 0.75em;
   font-weight: 600;
   height: 3.75em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.04em;
   line-height: 3.75em;
   padding: 0 2.25em;
   text-align: center;
@@ -2272,7 +2270,7 @@ body.convospot-site .features {
         font-family: "Dosis", sans-serif;
         font-size: 1em;
         font-weight: 300;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.04em;
         line-height: 1.85em;
         padding: 0.75em 0;
         text-transform: uppercase; }
@@ -2386,7 +2384,7 @@ body.is-menu-visible #menu {
     font-family: "Dosis", sans-serif;
     font-size: 1em;
     font-weight: 300;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.04em;
     line-height: 2; }
   @media screen and (max-width: 1280px) {
     #banner {
@@ -2439,7 +2437,7 @@ body.is-menu-visible #menu {
     font-family: "Dosis", sans-serif;
     font-size: 1em;
     font-weight: 300;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.04em;
     line-height: 2;
     text-transform: uppercase; }
 #wrapper h2 {
