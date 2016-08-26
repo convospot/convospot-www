@@ -2520,10 +2520,11 @@ body.is-menu-visible #menu {
     .wrapper.spotlight .image {
       margin: 0 3em 2em 0;
       max-width: 300px;
+      min-width: 300px;
       overflow: hidden;
       -ms-flex: 1; }
       .wrapper.spotlight .image img {
-        width: 100%; }
+        max-width: 100%; }
     .wrapper.spotlight .content {
       max-width: 600px;
       text-align: left;
@@ -2538,42 +2539,30 @@ body.is-menu-visible #menu {
     .wrapper.spotlight:nth-child(2n - 1) .image {
       margin: 0 0 2em 3em; }
   @media screen and (max-width: 980px) {
-    .wrapper {
-      margin: 4.75em 0; }
-      .wrapper .inner {
-        padding: 3em 3em 1em 3em ;
-        width: 100%; }
-      .wrapper.spotlight .image {
+    .wrapper .inner {
+      padding: 3em 3em 1em 3em ;
+      width: 100%; }
+    .wrapper.spotlight .image {
+      display: block;
+      width: 100%; }
+      .wrapper.spotlight .image img {
         display: block;
-        margin: 0 2em 2em 0;
-        width: 32em; }
-      .wrapper.spotlight:nth-child(2n - 1) .image {
-        margin: 0 0 2em 2em; } }
+        margin: auto; } }
   @media screen and (max-width: 736px) {
-    .wrapper {
-      margin: 2.5em 0; }
-      .wrapper .inner {
-        padding: 2em 2em 0.1em 2em ; }
-      .wrapper.spotlight .inner {
-        -moz-align-items: -moz-flex-start;
-        -webkit-align-items: -webkit-flex-start;
-        -ms-align-items: -ms-flex-start;
-        align-items: flex-start; }
-      .wrapper.spotlight .image {
-        width: 19em;
-        margin: 0 1.75em 2em 0; }
-      .wrapper.spotlight:nth-child(2n - 1) .image {
-        margin: 0 0 2em 1.75em; } }
+    .wrapper .inner {
+      padding: 2em 2em 0.1em 2em ; }
+    .wrapper.spotlight .inner {
+      -moz-align-items: -moz-flex-start;
+      -webkit-align-items: -webkit-flex-start;
+      -ms-align-items: -ms-flex-start;
+      align-items: flex-start; }
+    .wrapper.spotlight .image {
+      width: 100%; } }
   @media screen and (max-width: 640px) {
     .wrapper.spotlight .inner {
       display: block; }
     .wrapper.spotlight .image {
-      margin: 0 0 1em 0 !important;
-      max-width: 85%;
-      width: 12em; } }
-  @media screen and (max-width: 360px) {
-    .wrapper .inner {
-      padding: 2em 1.5em 0.1em 1.5em ; } }
+      width: 100%; } }
 
 /* Footer */
 #footer {
