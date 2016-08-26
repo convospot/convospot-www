@@ -29,6 +29,10 @@ body {
     background-size: auto, cover;
     background-attachment: fixed, fixed;
     background-position: center, center;
+    //fix font issue
+    h2,h3 {
+         letter-spacing: 0.04em;
+    }
     // Prevents animation/transition "flicker" on page load.
     // Automatically added/removed by js/main.js.
     &.is-loading {
