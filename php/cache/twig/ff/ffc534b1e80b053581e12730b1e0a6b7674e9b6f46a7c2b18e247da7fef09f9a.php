@@ -17,17 +17,22 @@ class __TwigTemplate_7457a73975e7aa97ecf80a4e733f80304d4a979467190aa4cc99b52ae70
     {
         // line 1
         echo "<section id=\"customer\" class=\"customer\">
-  <ul class=\"customer-list\">
-    <li><a class=\"node\" title=\"Node.js\" href=\"/nodejs\">Node.js</a></li>
-    <li><a class=\"ruby\" title=\"Ruby\" href=\"/ruby\">Ruby</a></li>
-    <li><a class=\"java\" title=\"Java\" href=\"/java\">Java</a></li>
-    <li><a class=\"php\" title=\"PHP\" href=\"/php\">PHP</a></li>
-    <li><a class=\"python\" title=\"Python\" href=\"/python\">Python</a></li>
-    <li><a class=\"go\" title=\"Go\" href=\"/go\">Go</a></li>
-    <li><a class=\"scala\" title=\"Scala\" href=\"/scala\">Scala</a></li>
-    <li><a class=\"clojure\" title=\"Clojure\" href=\"/clojure\">Clojure</a></li>
-  </ul>
-</section>";
+    <div class=\"pure-g\">
+        <div class=\"pure-u-1 pure-u-md-1-1\">
+           <!--  <ul class=\"customer-list\">
+                <li><a class=\"node\" title=\"Node.js\" href=\"/nodejs\">Node.js</a></li>
+                <li><a class=\"ruby\" title=\"Ruby\" href=\"/ruby\">Ruby</a></li>
+                <li><a class=\"java\" title=\"Java\" href=\"/java\">Java</a></li>
+                <li><a class=\"php\" title=\"PHP\" href=\"/php\">PHP</a></li>
+                <li><a class=\"python\" title=\"Python\" href=\"/python\">Python</a></li>
+                <li><a class=\"go\" title=\"Go\" href=\"/go\">Go</a></li>
+                <li><a class=\"scala\" title=\"Scala\" href=\"/scala\">Scala</a></li>
+                <li><a class=\"clojure\" title=\"Clojure\" href=\"/clojure\">Clojure</a></li>
+            </ul> -->
+        </div>
+    </div>
+</section>
+";
     }
 
     public function getTemplateName()
@@ -41,14 +46,19 @@ class __TwigTemplate_7457a73975e7aa97ecf80a4e733f80304d4a979467190aa4cc99b52ae70
     }
 }
 /* <section id="customer" class="customer">*/
-/*   <ul class="customer-list">*/
-/*     <li><a class="node" title="Node.js" href="/nodejs">Node.js</a></li>*/
-/*     <li><a class="ruby" title="Ruby" href="/ruby">Ruby</a></li>*/
-/*     <li><a class="java" title="Java" href="/java">Java</a></li>*/
-/*     <li><a class="php" title="PHP" href="/php">PHP</a></li>*/
-/*     <li><a class="python" title="Python" href="/python">Python</a></li>*/
-/*     <li><a class="go" title="Go" href="/go">Go</a></li>*/
-/*     <li><a class="scala" title="Scala" href="/scala">Scala</a></li>*/
-/*     <li><a class="clojure" title="Clojure" href="/clojure">Clojure</a></li>*/
-/*   </ul>*/
+/*     <div class="pure-g">*/
+/*         <div class="pure-u-1 pure-u-md-1-1">*/
+/*            <!--  <ul class="customer-list">*/
+/*                 <li><a class="node" title="Node.js" href="/nodejs">Node.js</a></li>*/
+/*                 <li><a class="ruby" title="Ruby" href="/ruby">Ruby</a></li>*/
+/*                 <li><a class="java" title="Java" href="/java">Java</a></li>*/
+/*                 <li><a class="php" title="PHP" href="/php">PHP</a></li>*/
+/*                 <li><a class="python" title="Python" href="/python">Python</a></li>*/
+/*                 <li><a class="go" title="Go" href="/go">Go</a></li>*/
+/*                 <li><a class="scala" title="Scala" href="/scala">Scala</a></li>*/
+/*                 <li><a class="clojure" title="Clojure" href="/clojure">Clojure</a></li>*/
+/*             </ul> -->*/
+/*         </div>*/
+/*     </div>*/
 /* </section>*/
+/* */

@@ -93,6 +93,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
         $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 49)->display($context);
         // line 50
         echo "    </div>
+    <div id=\"mask\"></div>
     <!-- Scripts -->
     <script type=\"text/javascript\" src=\"https://code.jquery.com/jquery-1.12.4.min.js\" integrity=\"sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=\" crossorigin=\"anonymous\"></script>
     <script src=\"https://cdn.jsdelivr.net/responsive-nav/1.0.39/responsive-nav.min.js\"></script>
@@ -100,7 +101,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
     <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min.js\"></script>
     <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.1/vivus.min.js\"></script>
     ";
-        // line 57
+        // line 58
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/main.js"), "method");
         echo " ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
@@ -175,7 +176,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 
     public function getDebugInfo()
     {
-        return array (  161 => 49,  133 => 32,  104 => 57,  95 => 50,  87 => 49,  65 => 32,  43 => 13,  39 => 12,  33 => 11,  21 => 1,);
+        return array (  162 => 49,  134 => 32,  105 => 58,  95 => 50,  87 => 49,  65 => 32,  43 => 13,  39 => 12,  33 => 11,  21 => 1,);
     }
 }
 /* <!DOCTYPE HTML>*/
@@ -228,6 +229,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /*     <div id="page-wrapper">*/
 /*         {% include 'partials/header.html.twig' %} {% include 'partials/navigation.html.twig' %} {% block content %} {% endblock %} {% include 'partials/footer.html.twig' %}*/
 /*     </div>*/
+/*     <div id="mask"></div>*/
 /*     <!-- Scripts -->*/
 /*     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>*/
 /*     <script src="https://cdn.jsdelivr.net/responsive-nav/1.0.39/responsive-nav.min.js"></script>*/

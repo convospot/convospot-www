@@ -13,7 +13,14 @@
     });
 
     var nav = responsiveNav(".nav-collapse",{
-        animate: false
+        animate: false,
+        openPos: "static",
+        open: function(){
+            $('#mask').addClass('show');
+        }, 
+        close: function(){
+            $('#mask').removeClass('show');
+        }
     });
 
     $(window).resize(function() {

@@ -1262,15 +1262,17 @@ body {
   -ms-overflow-style: scrollbar; }
 
 @media screen and (max-width: 640px) {
-  html, body {
+  html,
+  body {
     min-width: 320px; } }
 body {
   background-color: #ffffff;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../images/bg.jpg");
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center; }
-  body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+  body.is-loading *,
+  body.is-loading *:before,
+  body.is-loading *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
     -ms-animation: none !important;
@@ -1279,6 +1281,20 @@ body {
     -webkit-transition: none !important;
     -ms-transition: none !important;
     transition: none !important; }
+
+#mask {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none; }
+
+#mask.show {
+  display: block; }
 
 /* Type */
 body, input, select, textarea {
@@ -2161,15 +2177,9 @@ body.convospot-site .features {
 
 .js-nav-active #header .nav-collapse {
   text-align: left;
-  background: rgba(255, 255, 255, 0.95294);
-  border-bottom: 2px solid #d0d4d9;
-  box-shadow: 0px 2px 2px #d0d4d9; }
+  background: rgba(255, 255, 255, 0.95294); }
 .js-nav-active #header ul li {
   display: block; }
-  .js-nav-active #header ul li.end {
-    border-top: solid 2px #e0e0e0;
-    margin-top: 10px;
-    height: 80px; }
 .js-nav-active #header a.small {
   font-size: 75%; }
 .js-nav-active #header .sep-txt {
@@ -2419,7 +2429,7 @@ body.is-menu-visible #menu {
     #banner {
       padding: 7em 0 8.25em 0 ;
       background-color: #ffffff;
-      background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../images/bg.jpg");
+      background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
       background-size: auto, cover;
       background-position: center, center;
       margin-bottom: -6.5em; } }
@@ -2508,7 +2518,7 @@ body.is-menu-visible #menu {
   #wrapper > header {
     padding: 9em 0 6.25em 0 ;
     background-color: #ffffff;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../images/bg.jpg");
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em; } }
