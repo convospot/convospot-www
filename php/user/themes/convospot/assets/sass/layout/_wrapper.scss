@@ -65,32 +65,11 @@
 
 .wrapper {
     background-color: _palette(bg);
-    margin: _size(wrapper-edges, none) 0;
     position: relative;
-    &.alt {
-        img {
-            float: right;
-            margin-right: 10px;
-            margin-top: 10px;
-        }
-        &:before {
-            @include vendor('transform', 'scaleX(-1)');
-        }
-        &:after {
-            @include vendor('transform', 'scaleY(-1) scaleX(-1)');
-        }
-    }
     .inner {
         @include padding(3em, 0);
         margin: 0 auto;
         width: _size(inner);
-    }
-    @for $i from 2 through _misc(max-wrapper-styles) {
-        $j: 3 * ($i - 1);
-        $color: desaturate(lighten(_palette(bg), $j), $j * 0.5);
-        &.style#{$i} {
-            background-color: $color;
-        }
     }
     &.spotlight {
         background-color: _palette(bg-light);
@@ -132,11 +111,17 @@
         }
         &.spotlight {
             .image {
+                margin: 2em auto;
                 display: block;
                 width: 100%;
                 img {
                     display: block;
                     margin: auto;
+                }
+            }
+            &:nth-child(2n - 1) {
+                .image {
+                    margin: 2em auto;
                 }
             }
         }
@@ -150,6 +135,7 @@
                 @include vendor('align-items', 'flex-start');
             }
             .image {
+                margin: 1em auto;
                 width: 100%;
             }
         }
@@ -160,6 +146,7 @@
                 display: block;
             }
             .image {
+                margin: 0.5em auto;
                 width: 100%;
             }
         }
