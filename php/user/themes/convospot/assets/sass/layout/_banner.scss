@@ -8,7 +8,7 @@
 
 #banner {
     overflow: hidden;
-    @include padding(4em, 0, (0, 0, 0, 0));
+    padding-top: 4em; 
     text-align: center;
     div.color-mask {
         position: absolute;
@@ -53,6 +53,9 @@
                 line-height: 1.2;
                 font-weight: 600;
             }
+        }
+        img {
+            display: block;
         }
         p {
             line-height: 26px;
@@ -112,7 +115,7 @@
         line-height: 2;
     }
     @include breakpoint(large) {
-        @include padding(7em, 0, (0, 0, _size(wrapper-edges, large) * 0.5, 0));
+        @include padding(5em, 0, (0, 0, _size(wrapper-edges, large) * 0.5, 0));
         background-color: _palette(bg);
         background-image: linear-gradient(to top, transparentize(_palette(bg), 0.2), transparentize(_palette(bg), 0.2));
         background-size: auto, cover;
@@ -120,9 +123,9 @@
         margin-bottom: (_size(wrapper-edges, large) * -1);
     }
     @include breakpoint(medium) {
-        @include padding(12em,
+        @include padding(2em,
         3em,
-        (0, 0, _size(wrapper-edges, medium) * 0.5, 0));
+        (2, 0, 0, 0));
         margin-bottom: (_size(wrapper-edges, medium) * -1);
         .inner {
             width: 100%;
@@ -133,9 +136,9 @@
         }
     }
     @include breakpoint(small) {
-        @include padding(5em,
+        @include padding(2em,
         2em,
-        (0, 0, _size(wrapper-edges, small) * 0.5, 0));
+        (2, 0, 0, 0));
         margin-bottom: (_size(wrapper-edges, small) * -1);
         .logo {
             margin: 0 0 (_size(element-margin) * 0.5) 0;
@@ -153,7 +156,7 @@
             font-size: 0.8em;
         }
         .inner {
-            margin: 6em auto 8em auto;
+            margin: 3em auto 0em auto;
         }
     }
     body.is-loading & {
