@@ -52,7 +52,7 @@
 			letter-spacing: _font(kern-heading);
 			margin: 0 0 _size(element-margin) 0;
 			text-transform: uppercase;
-			color: _palette(fg);
+			color: _palette(border);
 
 			&:before {
 				border-radius: 100%;
