@@ -1,0 +1,47 @@
+1472876145
+s:2069:"<!-- Wrapper -->
+<section id="wrapper">
+    <section id="one" class="wrapper spotlight style1 ">
+        <div class="inner">
+            <a href="#" class="image">
+            <span class="image-cover">
+            <img src="/user/pages/01.home/_3_wrapper/widget.png" />
+            </span>
+            </a>
+            <div class="content">
+                <h2>Engage customers with automation</h2>
+                <p>Convospot can <strong>automatically talk</strong> to your customers. Based on foundational knowledge, they can learn from new conversations and continuously improve themselves.</p>
+                <a href="" class="special">Learn more</a>
+            </div>
+        </div>
+    </section> 
+    <section id="two" class="wrapper spotlight style2 alt">
+        <div class="inner">
+            <a href="#" class="image">
+            <span class="image-cover">
+            <img src="/user/pages/01.home/_3_wrapper/knowledge.png" />
+            </span>
+            </a>
+            <div class="content">
+                <h2>Leverage and share knowledge</h2>
+                <p>Our AI engine is tailored to each application using customized models. It's <strong>only for you</strong>. Importing, exporting, and editing knowledge can be as easy as copying and pasting a text file.</p>
+                <a href="" class="special">Learn more</a>
+            </div>
+        </div>
+    </section> 
+    <section id="three" class="wrapper spotlight style3 ">
+        <div class="inner">
+            <a href="#" class="image">
+            <span class="image-cover">
+            <img src="/user/pages/01.home/_3_wrapper/realtime.png" />
+            </span>
+            </a>
+            <div class="content">
+                <h2>Real-time analysis plus actions</h2>
+                <p>Keep track of customers' activities and extract their intentions from the <strong>real-time event stream</strong>. Take actions automatically whenever you need.</p>
+                <a href="" class="special">Learn more</a>
+            </div>
+        </div>
+    </section> 
+</section>
+";

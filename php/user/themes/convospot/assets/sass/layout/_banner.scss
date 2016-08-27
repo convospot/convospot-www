@@ -17,11 +17,6 @@
         background: rgba(255, 255, 255, 0.8);
         z-index: 2;
     }
-    .slash {
-        .slick-dots li.slick-active button:before {
-            color: #9b4dca;
-        }
-    }
     .quick-signup {
         max-width: 450px;
         min-width: 250px;
@@ -40,7 +35,7 @@
         h1,
         h2 {
             margin-bottom: 0px;
-            color: #4a148c;
+            color: _palette(bold);
             font-size: 48px;
             line-height: 1.2;
             font-weight: 300;
@@ -48,7 +43,7 @@
         @include breakpoint(medium) {
             h2 {
                 margin-bottom: 0px;
-                color: #4a148c;
+                color: _palette(bold);
                 font-size: 32px;
                 line-height: 1.2;
                 font-weight: 600;
@@ -62,7 +57,7 @@
         }
         h3 {
             margin-bottom: 0px;
-            color: #47525d;
+            color: _palette(fg);
             font-size: 21px;
             padding-bottom: 32px;
         }

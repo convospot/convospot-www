@@ -9,4 +9,5 @@ content:
             - _1_banner
             - _2_ribbon
             - _3_wrapper
+            - _6_generic
 ---
