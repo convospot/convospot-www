@@ -60,8 +60,9 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
     <link rel=\"manifest\" href=\"user/themes/convospot/assets/favicon/manifest.json\">
     <meta name=\"msapplication-TileColor\" content=\"#ffffff\">
     <meta name=\"msapplication-TileImage\" content=\"user/themes/convospot/assets/favicon/ms-icon-144x144.png\">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name=\"theme-color\" content=\"#ffffff\"> ";
-        // line 32
+        // line 33
         $this->displayBlock('stylesheets', $context, $blocks);
         echo " ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "css", array(), "method");
@@ -83,15 +84,15 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
     <!-- Page Wrapper -->
     <div id=\"page-wrapper\">
         ";
-        // line 49
-        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 49)->display($context);
+        // line 50
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 50)->display($context);
         echo " ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 49)->display($context);
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 50)->display($context);
         echo " ";
         $this->displayBlock('content', $context, $blocks);
         echo " ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 49)->display($context);
-        // line 50
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 50)->display($context);
+        // line 51
         echo "    </div>
     <div id=\"mask\"></div>
     <!-- Scripts -->
@@ -101,7 +102,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
     <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min.js\"></script>
     <script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/vivus/0.3.1/vivus.min.js\"></script>
     ";
-        // line 58
+        // line 59
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://assets/js/main.js"), "method");
         echo " ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
@@ -130,7 +131,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 ";
     }
 
-    // line 32
+    // line 33
     public function block_stylesheets($context, array $blocks = array())
     {
         echo " ";
@@ -158,7 +159,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
         echo " ";
     }
 
-    // line 49
+    // line 50
     public function block_content($context, array $blocks = array())
     {
         echo " ";
@@ -176,7 +177,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 
     public function getDebugInfo()
     {
-        return array (  162 => 49,  134 => 32,  105 => 58,  95 => 50,  87 => 49,  65 => 32,  43 => 13,  39 => 12,  33 => 11,  21 => 1,);
+        return array (  163 => 50,  135 => 33,  106 => 59,  96 => 51,  88 => 50,  66 => 33,  43 => 13,  39 => 12,  33 => 11,  21 => 1,);
     }
 }
 /* <!DOCTYPE HTML>*/
@@ -210,6 +211,7 @@ class __TwigTemplate_b29f48dc7d55eba8b4f2f4b727ecfdd3fab0e13437f073f20ba1deb9348
 /*     <link rel="manifest" href="user/themes/convospot/assets/favicon/manifest.json">*/
 /*     <meta name="msapplication-TileColor" content="#ffffff">*/
 /*     <meta name="msapplication-TileImage" content="user/themes/convospot/assets/favicon/ms-icon-144x144.png">*/
+/*     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />*/
 /*     <meta name="theme-color" content="#ffffff"> {% block stylesheets %} {% if browser.getBrowser == 'msie' and browser.getVersion == 8 %} {% do assets.addJs('theme://assets/js/ie/html5shiv.js') %} {% endif %} {% do assets.addCss('theme://assets/css/main.css', 103) %} {% do assets.addCss('theme://assets/css/headroom.css') %} {% if browser.getBrowser == 'msie' and browser.getVersion == 8 %} {% do assets.addCss('theme://assets/css/ie8.css') %} {% endif %} {% if browser.getBrowser == 'msie' and browser.getVersion == 9 %} {% do assets.addCss('theme://assets/css/ie9.css') %} {% endif %} {% endblock %} {{ assets.css() }}*/
 /*     <!-- custom styles -->*/
 /*     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">*/

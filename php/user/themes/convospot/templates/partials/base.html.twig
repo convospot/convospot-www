@@ -29,6 +29,7 @@
     <link rel="manifest" href="user/themes/convospot/assets/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="user/themes/convospot/assets/favicon/ms-icon-144x144.png">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="theme-color" content="#ffffff"> {% block stylesheets %} {% if browser.getBrowser == 'msie' and browser.getVersion == 8 %} {% do assets.addJs('theme://assets/js/ie/html5shiv.js') %} {% endif %} {% do assets.addCss('theme://assets/css/main.css', 103) %} {% do assets.addCss('theme://assets/css/headroom.css') %} {% if browser.getBrowser == 'msie' and browser.getVersion == 8 %} {% do assets.addCss('theme://assets/css/ie8.css') %} {% endif %} {% if browser.getBrowser == 'msie' and browser.getVersion == 9 %} {% do assets.addCss('theme://assets/css/ie9.css') %} {% endif %} {% endblock %} {{ assets.css() }}
     <!-- custom styles -->
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
