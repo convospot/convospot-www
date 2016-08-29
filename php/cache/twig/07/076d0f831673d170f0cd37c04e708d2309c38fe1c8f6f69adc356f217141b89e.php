@@ -32,7 +32,7 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
             <div class=\"pure-u-1 pure-u-md-1-4\">
                 <h3>About</h3>
                 <ul>
-                    <li>Team</li>
+                    <li><a href=\"/team\">Team</a></li>
                     <li><a href=\"https://angel.co/reflen-inc/jobs\">Careers</a></li>
                     <li><a href=\"https://medium.com/%40convospot.io\">Blog</a></li>
                     <li><a href=\"http://homerquan.tumblr.com/\">R&amp;D</a></li>
@@ -122,7 +122,7 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
 /*             <div class="pure-u-1 pure-u-md-1-4">*/
 /*                 <h3>About</h3>*/
 /*                 <ul>*/
-/*                     <li>Team</li>*/
+/*                     <li><a href="/team">Team</a></li>*/
 /*                     <li><a href="https://angel.co/reflen-inc/jobs">Careers</a></li>*/
 /*                     <li><a href="https://medium.com/%40convospot.io">Blog</a></li>*/
 /*                     <li><a href="http://homerquan.tumblr.com/">R&amp;D</a></li>*/

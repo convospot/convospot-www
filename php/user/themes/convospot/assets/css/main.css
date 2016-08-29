@@ -2643,7 +2643,7 @@ body.is-menu-visible #menu {
           margin: 0 0 3em 0; } }
 
 .generic {
-  height: 750px; }
+  min-height: 750px; }
   .generic .inner {
     padding: 3em 0 1em 0 ;
     margin: 0 auto;
@@ -2653,5 +2653,7 @@ body.is-menu-visible #menu {
     .generic .inner h2 {
       font-weight: 600;
       font-size: 32px; }
+  .generic .circle {
+    border-radius: 50%; }
 
 /*# sourceMappingURL=main.css.map */

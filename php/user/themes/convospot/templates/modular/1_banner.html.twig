@@ -5,9 +5,11 @@
                 <div class="pure-u-1 pure-u-md-1-2">
                     <h2>{{page.header.title}}</h2>
                     <h3>{{page.header.sub}}</h3>
+                    {% if (page.header.actions) %}
                     <ul class="actions">
                         <li><a href="http://app.convospot.io/signup" class="button rev">Signup for free</a></li>
                     </ul>
+                    {% endif %}
                 </div>
                 <div class="pure-u-1 pure-u-md-1-2">
 
