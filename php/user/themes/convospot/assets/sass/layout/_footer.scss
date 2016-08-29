@@ -26,10 +26,16 @@
                 }
             }
         }
+        input {
+            height: 100%;
+        }
+        .talk {
+            border: solid 2px;
+        }
     }
     .claim {
         background: _palette(bg-light);
-        text-align: right;
+        text-align: center;
         .inner {
             padding: 1em 0;
         }
@@ -80,21 +86,6 @@
         }
         h2 {
             color: _palette(fg-light);
-        }
-        form {
-            margin: 0 _size(section-spacing, large) 0 0;
-            width: calc(50% - #{_size(section-spacing, large) * 0.5});
-            input {
-                background: _palette(fg-light);
-            }
-            input.button {
-                background: none;
-                border: solid 1px _palette(fg-light);
-                color: _palette(fg-light);
-            }
-            label {
-                color: _palette(fg-light);
-            }
         }
         .contact {
             width: calc(50% - #{_size(section-spacing, large) * 0.5});

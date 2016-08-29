@@ -2551,9 +2551,13 @@ body.is-menu-visible #menu {
       text-decoration: none; }
       #footer .map ul li a {
         color: #999; }
+  #footer .map input {
+    height: 100%; }
+  #footer .map .talk {
+    border: solid 2px; }
   #footer .claim {
     background: #fbfbfc;
-    text-align: right; }
+    text-align: center; }
     #footer .claim .inner {
       padding: 1em 0; }
   #footer ul.copyright {
@@ -2603,17 +2607,6 @@ body.is-menu-visible #menu {
       width: 100%; }
     #footer .inner h2 {
       color: #e0e0e0; }
-    #footer .inner form {
-      margin: 0 3em 0 0;
-      width: calc(50% - 1.5em); }
-      #footer .inner form input {
-        background: #e0e0e0; }
-      #footer .inner form input.button {
-        background: none;
-        border: solid 1px #e0e0e0;
-        color: #e0e0e0; }
-      #footer .inner form label {
-        color: #e0e0e0; }
     #footer .inner .contact {
       width: calc(50% - 1.5em); }
   @media screen and (max-width: 1280px) {
