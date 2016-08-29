@@ -58,7 +58,7 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
                                 <div class=\"pure-u-3-5\">
                                     <input type=\"email\" value=\"\" placeholder=\"Your email\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\">
                                 </div>
-                                <div class=\"pure-u-2-5\">
+                                <div class=\"pure-u-2-5 subscribe\">
                                     <input type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button rev\">
                                 </div>
                             </div>
@@ -148,7 +148,7 @@ class __TwigTemplate_540a5bb14bcd9b94f2a40a93f7afb1cd696ee3da41b95ed143dc4791e81
 /*                                 <div class="pure-u-3-5">*/
 /*                                     <input type="email" value="" placeholder="Your email" name="EMAIL" class="required email" id="mce-EMAIL">*/
 /*                                 </div>*/
-/*                                 <div class="pure-u-2-5">*/
+/*                                 <div class="pure-u-2-5 subscribe">*/
 /*                                     <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button rev">*/
 /*                                 </div>*/
 /*                             </div>*/

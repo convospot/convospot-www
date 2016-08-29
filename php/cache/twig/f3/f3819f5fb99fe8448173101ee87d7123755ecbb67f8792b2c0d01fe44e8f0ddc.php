@@ -31,7 +31,7 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
                 <a href=\"#\" class=\"small has-border\" ontap=\"showConvospot()\" onclick=\"showConvospot()\">Talk to bot</a>
             </li>
             <li>
-                <a href=\"/\" class=\"small\">Home</a>
+                <a href=\"/\" class=\"small\">Get started</a>
             </li>
             <li>
                 <a href=\"http://doc.convospot.io\" class=\"small\">Doc</a>
@@ -79,7 +79,7 @@ class __TwigTemplate_2bcb4d93749de319fb1d63c6b2ff089ed954fb813b30b82a3fa76c0a30e
 /*                 <a href="#" class="small has-border" ontap="showConvospot()" onclick="showConvospot()">Talk to bot</a>*/
 /*             </li>*/
 /*             <li>*/
-/*                 <a href="/" class="small">Home</a>*/
+/*                 <a href="/" class="small">Get started</a>*/
 /*             </li>*/
 /*             <li>*/
 /*                 <a href="http://doc.convospot.io" class="small">Doc</a>*/

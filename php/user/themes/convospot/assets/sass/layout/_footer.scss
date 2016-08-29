@@ -26,11 +26,14 @@
                 }
             }
         }
-        input {
-            height: 100%;
-        }
         .talk {
             border: solid 2px;
+        }
+        .email {
+            height: 2.85em;
+        }
+        .subscribe {
+            padding-left: 5px;
         }
     }
     .claim {
@@ -93,13 +96,9 @@
     }
     @include breakpoint(large) {
         background-size: auto, cover;
-        background-position: center, center;
-        margin-top: (_size(wrapper-edges, large) * -1);
-        padding-top: _size(wrapper-edges, large);
+        background-position: center, center;   
     }
     @include breakpoint(medium) {
-        margin-top: (_size(wrapper-edges, medium) * -1);
-        padding-top: _size(wrapper-edges, medium);
         .inner {
             @include padding(3em, 3em);
             display: block;
