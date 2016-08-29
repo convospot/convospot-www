@@ -2080,7 +2080,8 @@ body.convospot-site .features {
     position: absolute;
     top: 0;
     width: 100%;
-    text-align: right; }
+    text-align: right;
+    z-index: -1; }
     #header nav a.nav-toggle {
       text-decoration: none;
       text-indent: 300px;
