@@ -4,6 +4,9 @@
         @include padding(3em, 0);
         margin: 0 auto;
         text-align: center;
+        img {
+            max-width: 100%;
+        }
         h2 {
             color: _palette(bold);
             font-weight: 600;
