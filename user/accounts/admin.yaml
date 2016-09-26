@@ -1,0 +1,8 @@
+password: 'reflenQ!w2e3r4'
+email: 'web@convospot.io'
+fullname: 'Homer Quan'
+title: 'Site Administrator'
+access:
+  admin:
+    login: true
+    super: true
