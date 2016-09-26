@@ -1,8 +1,0 @@
-email: web@convospot.io
-access:
-  admin:
-    login: true
-    super: true
-fullname: 'homer quan'
-title: null
-hashed_password: $2y$10$SmSqiSn0qzdionhjCEJ2he2tDEz7cVFkoqoRFMnUY3nA3nn7OqWWu
